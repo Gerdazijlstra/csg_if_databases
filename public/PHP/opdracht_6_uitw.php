@@ -14,7 +14,7 @@ for ($r=0;$r<5;$r++) {
 }
 
 echo "<h2>De negen is numeriek: ".$speelveld[1][3];
-echo " | De zes is numeriek: ".$speelveld[1][0]."</h2>";
+echo " | De zes is numeriek: ".$speelveld[1][2]."</h2>";
 
 // Maak een HTML-tabel met opmaak
 echo '<table style="border-collapse: collapse; width: 500px; background: white; text-align: center; font-size: 3em;">';
