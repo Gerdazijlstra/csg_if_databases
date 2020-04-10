@@ -7,8 +7,8 @@ TYP HIERONDER JOUW PHPCODE
 
 // Maak een tweedimenionale array, ofwel een array van arrays
 $speelveld=array(
-                  array('X','O','O'),
-                  array('X','X','X'),
+                  array('X','X','O'),
+                  array('O','X','X'),
                   array('O','X','O')
                 );
 $winnaar='Niemand';
@@ -16,9 +16,17 @@ $winnaar='Niemand';
 for ($n=0;$n<3;$n++) {
   if ($speelveld[$n][0]==$speelveld[$n][1] && $speelveld[$n][1]==$speelveld[$n][2]) {
     $winnaar=$speelveld[$n][0];
-  }
+ }
+if ($speelveld[0][$n]==$speelveld[1][$n] && $speelveld[1][$n]==$speelveld[2][$n]) {
+$winnaar=$speelveld[0][$n];
+ }
 }
-
+if ($speelveld[0][0]==$speelveld[1][1] && $speelveld[1][1]==$speelveld[2][2]) {
+  $winnaar=$speelveld[1][1];
+}
+if ($speelveld[0][2]==$speelveld[1][1] && $speelveld[1][1]==$speelveld[2][0]) {
+  $winnaar=$speelveld[1][1];
+}
 echo "<h1>".$winnaar." heeft gewonnen.</h1>";
 
 // Maak een HTML-tabel met opmaak

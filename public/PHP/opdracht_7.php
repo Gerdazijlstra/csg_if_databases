@@ -5,8 +5,11 @@ include('opdracht_begin.php');
 TYP HIERONDER JOUW PHPCODE
 ****************************/
 
-      $fibonacci=array(0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765,10946);
-      
+      $fibonacci=array(0,1);
+      for($n=2;$n<30;$n++) {
+          $fibonacci[$n]=$fibonacci[$n-1]+$fibonacci[$n-2];
+      }
+       echo 'De reeks $fibonacci heeft '.count($fibonacci).' getallen.';
       // Een while bevat een voorwaarde. Zolang er uit de voorwaarde true (WAAR) komt gaat de herhaling verder
       $n=0;
       while ($fibonacci[$n]<100) {
@@ -46,7 +49,7 @@ TYP HIERONDER JOUW PHPCODE
         if ($deel2 || $deel3) {
           echo "<br>".$fibonacci[$n]." is deelbaar door 2 OF 3.";
         }        
-        if ($deel2 && $deel3) {
+        if ($deel2 && $deel3&& $fibonacci[$n]>144) {
           $doorgaan=false;
         }
         $deel2=false;
