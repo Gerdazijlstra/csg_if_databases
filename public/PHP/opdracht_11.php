@@ -31,7 +31,16 @@ TYP HIERONDER JOUW PHPCODE
       
 $sql = "SELECT * FROM stations"; 
 toon_tabel($sql,$DBverbinding);
-
+$sql = "INSERT INTO stations (plaats, beheerder) VALUES ('Groningen', 'Gerda')";
+mysqli_query($DBverbinding, $sql);
+$sql = "SELECT * FROM stations";
+toon_tabel($sql,$DBverbinding);
+$sql = "DELETE FROM stations WHERE plaats='Groningen'";
+mysqli_query($DBverbinding, $sql);
+$sql = "SELECT * FROM stations";
+toon_tabel($sql,$DBverbinding);
+$sql = "DELETE FROM stations WHERE ws_id>5";
+mysqli_query($DBverbinding, $sql);
 mysqli_close($DBverbinding);  
 
 /****************************

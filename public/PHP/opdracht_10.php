@@ -20,15 +20,15 @@ else {
   echo '<h1 style="color:green;">Verbinding gelukt</h1>';
 }
 
-echo "<h2>Eenvoudige query</h2>";
+echo "<h2>RESULTAAT</h2>";
 // Voer een query uit
-$sql = "SELECT * FROM artiest,titel WHERE artiest.id=titel.artiest_id AND artiest='Andre Hazes' order by jaar ASC";
+$sql = "SELECT * FROM artiest,titel,notering WHERE artiest.id=titel.artiest_id AND notering.lied_id=titel.id AND notering.jaar=2014 AND artiest='Nirvana' ORDER BY positie ASC";
 $records = mysqli_query($DBverbinding, $sql);
       
 if (mysqli_num_rows($records) > 0) {
   // Voor elke rij uit de resultaattabel wordt een array aangemaakt
   while($record = mysqli_fetch_assoc($records)) {
-    echo $record["titel"]." uit ".$record["jaar"].".<br>";
+    echo "<b>".$record["titel"]."</b> stond in 2014 op positie ".$record['positie'].".<br>";
   }
 }
 else {
