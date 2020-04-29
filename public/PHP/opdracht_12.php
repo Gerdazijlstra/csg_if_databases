@@ -39,6 +39,11 @@ $DBverbinding = mysqli_connect($servernaam, $gebruikersnaam, $wachtwoord, $datab
 /****************************
 TYP HIERONDER JOUW PHPCODE
 ****************************/
+function toon_logout() {
+  echo '<h2>Klik hier om uit te loggen</h2>
+   <form method="POST" action="">
+     <input type="submit" name="logout" value="uitloggen">
+   </form>';   }
 session_start();
 $sql = "SELECT * FROM stations ORDER BY 1 DESC"; 
 toon_tabel($sql,$DBverbinding);
@@ -60,15 +65,31 @@ if (isset($_POST['gebruikersnaam'])) {
 
 mysqli_close($DBverbinding); 
 
-if (isset($_SESSION["user"])) {
+if (isset($_SESSION["user"]) && !isset($_POST['logout'])) {
   echo "<h1 style='color: green;'>Welkom ".$_SESSION["user"]."</h1>";
-  echo 'De sessie wordt nu weer afgesloten. Klik F5 om opnieuw in te loggen.';
-  session_destroy();
+  //echo 'De sessie wordt nu weer afgesloten. Klik F5 om opnieuw in te loggen.';
+  toon_logout();
 }
 else {
+  if (isset($_POST['logout'])) {
+    echo "<h1 style='color: orange;'>UITGELOGD</h1>";
+    session_unset();
+    session_destroy();
+  }
+$sql = "SELECT * FROM stations ORDER BY 1 DESC";
+  toon_tabel($sql,$DBverbinding);
   toon_formulier();
 }
 
+echo "<h3>inhoud SESSION-array:</h3><PRE>";
+print_r($_SESSION);
+echo "</PRE>";
+
+echo "<h3>inhoud POST-array:</h3><PRE>";
+print_r($_POST);
+echo "</PRE>";
+
+mysqli_close($DBverbinding);
 /****************************
 EINDE VAN JOUW PHPCODE
 ****************************/
