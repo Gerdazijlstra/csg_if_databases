@@ -26,7 +26,9 @@
 
 </div>
 <div id= "container"> 
+<div class="colum left">
 <p> Hoi allemaal! bij bakken & co laten wij je verschillende recepten zien die je kan maken. Vergeet niet om een account aan te maken, zo kan je zelf ook recepten delen. Veel bakplezier!</p>
+</div>
 <div class="column right"> </div>
 </div>
 <div id= "footer">
