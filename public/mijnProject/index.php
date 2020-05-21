@@ -19,11 +19,9 @@
             </div>
         </div>
         <div id= "topnav"> 
-            <a href="home.html">home</a>
-            <a href="waar.html">locatie & tarieven</a>
-            <a href="over_de_camping.html">over de camping</a>
-            <a href="contact.html">contact</a>
-            <a href="colofon.html">colofon</a>
+            <a href="indez.php">home</a>
+            <a href="recepten.php">recepten</a>
+            <a href="inloggen.php">inloggen</a>
         </div>
         <div id= "container"> 
             <div class="colum left">
