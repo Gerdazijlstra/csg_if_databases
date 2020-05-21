@@ -17,12 +17,12 @@ echo '<i>verbinding database succesvol</i>';
 <!DOCTYPE html>
 <html>
 <head>
-<title>recepten</title><link rel="stylesheet" href="opmaak.css" type="text/css">
+<title>recepten</title><link rel="stylesheet" href="design.css" type="text/css">
 </head>
 <body>
 
 <div id= "header"> 
-//bovenste balkje//
+
 <div id="h1"> 
 
  </div>
