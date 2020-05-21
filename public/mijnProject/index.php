@@ -19,16 +19,7 @@ echo '<i>verbinding database succesvol</i>';
     <head>
         <title>Bakken & co</title>
         <link rel="stylesheet" type="text/css" href="css/design.css">
-    </head>
-    <body>
-        <div id="container">
-            <h1>
-                <?php echo 'een <strong>lelijk</strong> stukje PHP';?>
-            </h1>
-            <img src="images/cartoon.jpg">
-        </div>
-    </body>
-<head>
+    
 <title>recepten</title><link rel="stylesheet" href="design.css" type="text/css">
 </head>
 <body>
