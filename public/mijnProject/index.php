@@ -12,8 +12,7 @@
             </div>
             <div id="h2"> 
                 <h1> bakken & co </h1>
-                <br>
-                <h2> bakken doe je zo!</h2>
+                <h3> bakken doe je zo!</h3>
             </div>
             <div id="h3"> 
             </div>
