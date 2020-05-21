@@ -4,7 +4,7 @@ html,body {
 }
 
 body {
-    color: blanchedalmond;
+    color: rgb(243, 243, 243);
     background-color: rgb(130, 201, 211);
 }
 
@@ -18,5 +18,5 @@ body {
 img {
     width: 60%;
     height: auto;
-    border: 10px solid blanchedalmond;
+    border: 10px solid rgb(243, 243, 243);
 }
