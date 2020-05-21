@@ -72,19 +72,9 @@ body{
    
 }
 
-.column.middle { 
-    background-image: url("hooizolder2.jfif");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height:300px;     
-}
 
 
-.column {
-    float: left;
-    padding: 10px;
-}
+
 
 .column.left {
     height: 100%; 
@@ -100,11 +90,7 @@ body{
 }   
 
 
-.column.middle {
-    height: 100%; 
-    width:50% ;
-    text-align: center;
-}
+
 
 
 #container :after {
@@ -118,59 +104,5 @@ body{
     text-align: center;
 }
 
-h1 {
-    margin:0;
-    font-family: 'Bangers', cursive;
-    text-align: center;
-}
 
-h2 {
-    font-family: 'Mali', cursive;
-    margin: 0;
-}
 
-h3 {
-     font-family: 'Mali', cursive;
-    margin: 0;
-}
-
-h4 {
-    font-family: 'Nothing You Could Do', cursive;
-    margin: 0;
-    text-align: center;
-}
-
-p {
-    font-family: 'Mali', cursive;
-    margin: 0;
-}
-
-.copyright {
-    font-family: none;
-    margin: 0;
-}
-
-a {
-    font-family: 'Mali', cursive;
-    margin: 0;
-}
-
-li {
-    font-family: 'Mali', cursive;
-    margin: 0;
-}
-
-.logo {
-    height: 95%;
-    margin-right: 5%;
-}
-
-.logo2 {
-    height: 95%;
-    margin-left: 5%;
-}
-
-.photo {
-    margin: 0;
-    width:100%;   
-}
