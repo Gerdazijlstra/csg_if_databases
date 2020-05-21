@@ -24,8 +24,10 @@
         </div>
         <div id= "container"> 
             <div class="colum left">
+                <h1>a</h1>
             </div>
             <div class="column right"> 
+                <h1>b</h1>
             </div>
         </div>
         <div id= "footer">
