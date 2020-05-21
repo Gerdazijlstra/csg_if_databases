@@ -13,7 +13,7 @@
 
 <div id="h1"> 
 
- </div>
+</div>
 <div id="h2"> 
 <h1> bakken & co </h1>
 <br>
@@ -31,13 +31,16 @@
 
 </div>
 <div id= "container"> 
-<div class="colum left">
+    <div class="colum left">
 
-</div>
-<div class="column right"> </div>
+    </div>
+    <div class="column right"> 
+    
+    </div>
+    
 </div>
 <div id= "footer">
 
- </div>
+</div>
 </body>
 </html>
