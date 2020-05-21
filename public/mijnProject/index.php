@@ -23,14 +23,9 @@
 
 </div>
 <div id= "topnav"> 
-    <a href="home.html">home</a>
-    <a href="waar.html">locatie & tarieven</a>
-    <a href="over_de_camping.html">over de camping</a>
-    <a href="contact.html">contact</a>
-    <a href="colofon.html">colofon</a>
-
 </div>
 <div id= "container"> 
+<<<<<<< HEAD
     <div class="colum left">
 
     </div>
@@ -38,6 +33,12 @@
     
     </div>
     
+=======
+<div class="colum left">
+<p> Hoi allemaal! bij bakken & co laten wij je verschillende recepten zien die je kan maken. Vergeet niet om een account aan te maken, zo kan je zelf ook recepten delen. Veel bakplezier!</p>
+</div>
+<div class="column right"> </div>
+>>>>>>> cd8e8b7f52a7fdebc4f63903751f087bc8112d1f
 </div>
 <div id= "footer">
 
