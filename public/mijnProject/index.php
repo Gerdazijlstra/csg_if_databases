@@ -4,12 +4,10 @@
     <head>
         <title>Bakken & co</title>
         <link rel="stylesheet" type="text/css" href="css/design.css">
-    
-<title>recepten</title><link rel="stylesheet" href="design.css" type="text/css">
-</head>
-<body>
-
-<div id= "header"> 
+        <title>recepten</title><link rel="stylesheet" href="design.css" type="text/css">
+    </head>
+    <body>
+        <div id= "header"> 
 
 <div id="h1"> 
 
