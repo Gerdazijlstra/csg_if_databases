@@ -16,7 +16,6 @@ echo '<i>verbinding database succesvol</i>';
 ?>
 <!DOCTYPE html>
 <html>
-<<<<<<< HEAD
     <head>
         <title>Bakken & co</title>
         <link rel="stylesheet" type="text/css" href="css/design.css">
@@ -29,7 +28,6 @@ echo '<i>verbinding database succesvol</i>';
             <img src="images/cartoon.jpg">
         </div>
     </body>
-=======
 <head>
 <title>recepten</title><link rel="stylesheet" href="design.css" type="text/css">
 </head>
@@ -58,5 +56,4 @@ echo '<i>verbinding database succesvol</i>';
 
  </div>
 </body>
->>>>>>> ffe3259e63810afbdd27f85a77eb0ce2979e408a
 </html>
