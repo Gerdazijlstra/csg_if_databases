@@ -19,7 +19,7 @@
             </div>
         </div>
         <div id= "topnav"> 
-            <a href="indez.php">home</a>
+            <a href="index.php">home</a>
             <a href="recepten.php">recepten</a>
             <a href="inloggen.php">inloggen</a>
         </div>
