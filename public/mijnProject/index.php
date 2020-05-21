@@ -16,16 +16,32 @@ echo '<i>verbinding database succesvol</i>';
 ?>
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Startpagina</title>
-        <link rel="stylesheet" type="text/css" href="css/design.css">
-    </head>
-    <body>
-        <div id="container">
-            <h1>
-                <?php echo 'een <strong>lelijk</strong> stukje PHP';?>
-            </h1>
-            <img src="images/cartoon.jpg">
-        </div>
-    </body>
+<head>
+<title>recepten</title><link rel="stylesheet" href="opmaak.css" type="text/css">
+</head>
+<body>
+
+<div id= "header"> 
+//bovenste balkje//
+<div id="h1"> 
+
+ </div>
+<div id="h2"> 
+<h1> bakken & co </h1>
+<br>
+<h2> bakken doe je zo!</h2>
+</div>
+<div id="h3"> </div>
+
+</div>
+<div id= "topnav"> 
+
+</div>
+<div id= "container"> 
+<p> Hoi allemaal! bij bakken & co laten wij je verschillende recepten zien die je kan maken. Vergeet niet om een account aan te maken, zo kan je zelf ook recepten delen. Veel bakplezier!</p>
+</div>
+<div id= "footer">
+
+ </div>
+</body>
 </html>
