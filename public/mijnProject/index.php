@@ -23,7 +23,7 @@ echo '<i>verbinding database succesvol</i>';
     <body>
         <div id="container">
             <h1>
-                <?php echo 'een <strong>klein</strong> stukje PHP';?>
+                <?php echo 'een <strong>lelijk</strong> stukje PHP';?>
             </h1>
             <img src="images/cartoon.jpg">
         </div>
