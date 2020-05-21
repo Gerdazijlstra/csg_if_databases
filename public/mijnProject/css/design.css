@@ -9,7 +9,7 @@ body{
 
 #header, #footer {
     width: 100% ;
-    background-color: #dbd4c0;
+    background-color: #8adee9;
     margin: 0;
 }
 
@@ -46,7 +46,7 @@ body{
      
 #topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(223, 223, 210);
     height: 5%;
 }
 
