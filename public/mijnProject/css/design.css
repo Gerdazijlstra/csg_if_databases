@@ -2,54 +2,45 @@ body,html {
     height: 100%;
     margin: 0;
 }
-
 body{ 
     background-color: #ffffff; 
 }
-
 #header, #footer {
     width: 100% ;
     background-color: #8adee9;
     margin: 0;
 }
-
 #header {
-    height: 10%;
+    height: 12%;
     text-align: left;
     display: flex;
 }
-
 #header {
-     background-size: cover;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-
 #h1 {
     height:100%;
     width: 15%;
     text-align: left;
 }
-
 #h2 {
     height:100%;
     width: 70%;
     text-align: center;
 }
-
 #h3 {
     height:100%;
     width: 15%;
     text-align: right;
-}
-     
-#topnav {
+}    
+#menu {
     overflow: hidden;
     background-color: rgb(223, 223, 210);
     height: 5%;
 }
-
-#topnav a {
+#menu a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -57,49 +48,41 @@ body{
     padding: 14px 16px;
     text-decoration: none;
 }
-
-#topnav a:hover {
+#menu a:hover {
     background-color: #ddd;
     color: black;
 }
-
-#container { 
-    height: 70%;
+#midden { 
+    height: 78%;
     width:100%;  
     display: flex;
     clear: both;
    
 }
-
-
-
-
-
-.column.left {
+#lings {
     height: 100%; 
-    width:75%;
-    text-align: left;
+    width:83%;
+    text-align: center;
 } 
-
-.column.right {
+#rechts {
     height: 100%; 
-    width:25%; 
-    text-align: right;
+    width:17%; 
+    text-align: center;
     background-color: pink;
-}   
+}  
+.een, .twee, .drie, .vier, .vijf, .zes, .zeven, .acht, .negen {
+    height: 33%;
+    width:33% ;
+    text-align: center;
 
-
-
-
-
-#container :after {
+} 
+#midden :after {
     content: "";
     display: table;
     clear: both;
 }
-
 #footer {
-    height: 10%;
+    height: 5%;
     text-align: center;
 }
 
