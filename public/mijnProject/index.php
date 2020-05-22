@@ -24,15 +24,21 @@
         </div>
         <div id= "midden"> 
             <div id="lings">
-                <div class="een"></div>
-                <div class="twee"></div>
-                <div class="drie"></div>
-                <div class="vier"></div>
-                <div class="vijf"></div>
-                <div class="zes"></div>
-                <div class="zeven"></div>
-                <div class="acht"></div>
-                <div class="negen"></div>
+                <div id= "a">
+                    <div class="een"></div>
+                    <div class="twee"></div>
+                    <div class="drie"></div>
+                </div>
+                <div id="b">
+                    <div class="vier"></div>
+                    <div class="vijf"></div>
+                    <div class="zes"></div>
+                </div>
+                <div id="c">
+                    <div class="zeven"></div>
+                    <div class="acht"></div>
+                    <div class="negen"></div>
+                </div>
                              
             </div>
             <div id="rechts"> 
