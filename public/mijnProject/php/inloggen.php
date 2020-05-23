@@ -11,7 +11,8 @@ else{
     ?>
     
 <form> action="inloggen.php" method="get">
-       <input type="text" name="Inloggen">
+       <input type="text" name="Gebruikersnaam">
+       <input type="text" name="Wachtwoord">
         <input type="submit">
 </form>
     <?php
