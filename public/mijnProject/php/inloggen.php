@@ -9,8 +9,10 @@ else{
         //sql
     }
     ?>
-    //formulier
-<form>
+    
+<form> action="inloggen.php" method="get">
+       <input type="text" name="Inloggen">
+        <input type="submit">
 </form>
     <?php
 }
