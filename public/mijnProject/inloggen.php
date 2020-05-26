@@ -27,7 +27,7 @@ if (isset($_SEESION{'Inloggen'})){
 echo 'Welkom op Bakken & co!';
 }
 else{
-    echo 'Inloggen';
+    echo 'Inlogge';
 }
 ?>
 <form> 
@@ -42,7 +42,7 @@ else{
 </tr>
 <tr>
 <td>&nbsp;</td>
-<td><input type="submit" name="submit" value="Inlogge" /></td>
+<td><input type="submit" name="submit" value="Inloggen" /></td>
 </tr>
 </table></form>
                              
