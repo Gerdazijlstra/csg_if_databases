@@ -21,8 +21,7 @@
             <a href="recepten.php">recepten</a>
             <a href="inloggen.php">inloggen</a>
         </div>
-        <div id= "midden"> 
-            <div id="lings">
+        <div id= "midden">  
                 <div id= "a">
                     <div class="een"></div>
                     <div class="twee"></div>
@@ -38,10 +37,6 @@
                     <div class="acht"></div>
                     <div class="negen"></div>
                 </div>
-                             
-            </div>
-            <div id="rechts"> 
-            </div>
         </div>
         <div id= "footer">
         </div>
