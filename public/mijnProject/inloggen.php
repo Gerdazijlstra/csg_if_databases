@@ -30,6 +30,21 @@ else{
     echo 'Inloggen';
 }
 ?>
+<form> method="post" action="#">
+<table width="100%" border="0" cellspacing="5" cellpadding="0" >
+<tr>
+<td width="100">Gebruikersnaam:</td>
+<td><input type="text" name="User" size="15" required="required" />
+</tr>
+<tr>
+<td>Wachtwoord:</td>
+<td><input type="password" name="Pass" size="15" required="required" />
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><input type="submit" name="submit" value="Inloggen" /></td>
+</tr>
+</table></form>
                              
 
          
