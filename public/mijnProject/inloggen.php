@@ -30,7 +30,7 @@ else{
     echo 'Inloggen';
 }
 ?>
-<form> method="post" action="#">
+<form> 
 <table width="100%" border="0" cellspacing="5" cellpadding="0" >
 <tr>
 <td width="100">Gebruikersnaam:</td>
