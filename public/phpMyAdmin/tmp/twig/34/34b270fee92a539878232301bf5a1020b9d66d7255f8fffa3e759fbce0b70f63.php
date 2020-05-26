@@ -105,6 +105,6 @@ class __TwigTemplate_f7dd03ab1bbf8991bb6ed3045356d6a222ff25a98f2619b7ca2354c8077
 
     public function getSourceContext()
     {
-        return new Source("", "error/generic.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/error/generic.twig");
+        return new Source("", "error/generic.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/error/generic.twig");
     }
 }

@@ -303,6 +303,6 @@ class __TwigTemplate_db574375fac0005ed867f4f7023834339d79c1efa0be32367b056e4d6aa
 
     public function getSourceContext()
     {
-        return new Source("", "display/import/javascript.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/display/import/javascript.twig");
+        return new Source("", "display/import/javascript.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/display/import/javascript.twig");
     }
 }
