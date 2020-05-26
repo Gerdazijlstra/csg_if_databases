@@ -23,7 +23,7 @@
         </div>
         <div id= "midden"> 
 <?php
-if (isset($_SEESION['Inloggen'])){
+if (isset($_SESSION['Inloggen'])){
 echo 'Welkom op Bakken & co!';
 }
 else{
