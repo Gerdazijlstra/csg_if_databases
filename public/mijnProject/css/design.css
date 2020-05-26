@@ -3,42 +3,32 @@ body,html {
     margin: 0;
 }
 body{ 
-    background-color: #ffffff; 
+    background-color: white;
+}
+#center{
+    width: 60%;
+    height: 100%;
+    margin: auto;
 }
 #header, #footer {
     width: 100% ;
-    background-color: #8adee9;
+    background-color: white;
     margin: 0;
 }
 #header {
-    height: 12%;
+    height: 20%;
     text-align: left;
     display: flex;
-}
-#header {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-#h1 {
-    height:100%;
-    width: 15%;
-    text-align: left;
-}
-#h2 {
-    height:100%;
-    width: 70%;
     text-align: center;
-}
-#h3 {
-    height:100%;
-    width: 15%;
-    text-align: right;
+    background-color: white;
+    margin-top: 1%
 }    
 #menu {
     overflow: hidden;
     background-color: rgb(223, 223, 210);
     height: 5%;
+    width: 100%;
+    margin-top: 1%;
 }
 #menu a {
     float: left;
@@ -56,19 +46,22 @@ body{
     height: 78%;
     width:100%;  
     display: flex;
-    clear: both;
-   
+    clear: both; 
+    background-color: white;
+    margin-top: 1%;
+
 } 
 #a, #b, #c, #d {
     height: 100%;  
     width: 25% ;
-    background-color: rgb(189, 178, 241);
+    background-color: white;
 }
 .een, .twee, .drie, .vier, .vijf, .zes, .zeven, .acht {
     height: 50%;
     width:100% ;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: white;
+
 } 
 
 #midden :after {
@@ -77,9 +70,12 @@ body{
     clear: both;
 }
 #footer {
-    height: 5%;
+    height: 20%;
     text-align: center;
-}
+    background-color: rgb(223, 223, 210);
+    margin-top: 1%;
+    margin-bottom: 1%
+    }
 
 
 
