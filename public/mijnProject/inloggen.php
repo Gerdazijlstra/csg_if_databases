@@ -29,7 +29,7 @@ echo 'Welkom op Bakken & co!';
 else{
     echo 'Inloggen';
     if(isset($_POST['submit'])){
-        
+       echo 'hoii' ;
     }
 }
 ?>
