@@ -27,10 +27,10 @@ if (isset($_SEESION{'Inloggen'})){
 echo 'Welkom op Bakken & co!';
 }
 else{
-    echo 'Inloggen';
+    echo 'Inlogge';
 }
 ?>
-<form> method="post" action="#">
+<form> 
 <table width="100%" border="0" cellspacing="5" cellpadding="0" >
 <tr>
 <td width="100">Gebruikersnaam:</td>
