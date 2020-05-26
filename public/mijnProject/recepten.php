@@ -33,7 +33,7 @@
                 <div id="c">
                     <div class="vijf"></div>
                     <div class="zes"></div>
-                </div>>
+                </div>
                 <div id="d">
                     <div class="zeven"></div>
                     <div class="acht"></div>

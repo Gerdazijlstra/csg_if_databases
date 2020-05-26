@@ -58,26 +58,14 @@ body{
     display: flex;
     clear: both;
    
-}
-#lings {
-    height: 100%; 
-    width:83%;
-    text-align: center;
-    display: flex;
 } 
-#rechts {
-    height: 100%; 
-    width:17%; 
-    text-align: center;
-    background-color: pink;
-}  
-#a, #c, #c, #d {
+#a, #b, #c, #d {
     height: 100%;  
     width: 25% ;
     background-color: rgb(189, 178, 241);
 }
-.een, .twee .drie, .vier, .vijf, .zes, .zeven, .acht {
-    height: 25%;
+.een, .twee, .drie, .vier, .vijf, .zes, .zeven, .acht {
+    height: 50%;
     width:100% ;
     text-align: center;
     background-color: whitesmoke;
