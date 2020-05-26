@@ -42,7 +42,7 @@ else{
 </tr>
 <tr>
 <td>&nbsp;</td>
-<td><input type="submit" name="submit" value="Inloggen" /></td>
+<td><input type="submit" name="submit" value="Inlogge" /></td>
 </tr>
 </table></form>
                              
