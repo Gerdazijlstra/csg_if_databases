@@ -27,7 +27,10 @@ if (isset($_SEESION{'Inloggen'})){
 echo 'Welkom op Bakken & co!';
 }
 else{
-    echo 'Inlogge';
+    echo 'Inloggen';
+    if(isset($_POST['submit'])){
+        
+    }
 }
 ?>
 <form> 
