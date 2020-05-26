@@ -58,41 +58,19 @@ body{
     display: flex;
     clear: both;
    
-}
-#lings {
-    height: 100%; 
-    width:83%;
-    text-align: center;
-    display: flex;
 } 
-#rechts {
-    height: 100%; 
-    width:17%; 
-    text-align: center;
-    background-color: pink;
-}  
-#a, #c {
+#a, #b, #c, #d {
     height: 100%;  
-    width: 33% ;
+    width: 25% ;
     background-color: rgb(189, 178, 241);
 }
-#b {
-    height: 100%;  
-    width: 34% ;
-    background-color: rgb(201, 175, 209);
-}
-.een, .drie, .vier, .zes, .zeven, .negen {
-    height: 33%;
+.een, .twee, .drie, .vier, .vijf, .zes, .zeven, .acht {
+    height: 50%;
     width:100% ;
     text-align: center;
     background-color: whitesmoke;
 } 
-.twee, .vijf, .acht {
-    height: 34%;
-    width:100% ;
-    text-align: center;
-    background-color: whitesmoke;
-}
+
 #midden :after {
     content: "";
     display: table;
