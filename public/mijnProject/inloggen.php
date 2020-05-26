@@ -22,7 +22,14 @@
             <a href="inloggen.php">inloggen</a>
         </div>
         <div id= "midden"> 
-
+<?php
+if (isset($_SEESION{'Inloggen'})){
+echo 'Welkom op Bakken & co!';
+}
+else{
+    echo 'Inloggen';
+}
+?>
                              
 
          
