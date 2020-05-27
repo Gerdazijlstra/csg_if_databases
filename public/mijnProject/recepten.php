@@ -17,15 +17,24 @@
                 <a href="recepten.php">recepten</a>
                 <a href="inloggen.php">inloggen</a>
             </div>
-            <div id= "midden">  
+            <div id= "midden">
+                <hr>
+                <h1>cookies</h1>
+                <hr>
                 <div id= "a">
                     <div class="een"></div>
                     <div class="twee"></div>
                 </div>
+                <hr>
+                <h1>cake</h1>
+                <hr>
                 <div id="b">
                     <div class="drie"></div>
                     <div class="vier"></div>
-                </div>    
+                </div> 
+                <hr>
+                <h1>hartig</h1>
+                <hr>   
                 <div id="c">
                     <div class="vijf"></div>
                     <div class="zes"></div>
