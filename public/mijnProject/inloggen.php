@@ -24,7 +24,7 @@
                         echo 'Welkom op Bakken & co!';
                     }
                     else{
-                        echo 'Inloggen';
+                       
                         if(isset($_POST['submit'])){
                             $sqlUitlezen= mysqli_query($MySQL, "SELECT * FROM 'gerbruikers");
                             $sqlAantal= mysqli_num_rows($sqlUitlezen);
