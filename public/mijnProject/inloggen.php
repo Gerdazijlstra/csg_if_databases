@@ -29,13 +29,15 @@ echo 'Welkom op Bakken & co!';
 else{
     echo 'Inloggen';
     if(isset($_POST['submit'])){
-       $sqlUitlezen= mysqli_query($MySQL, "SELECT * FROM 'gerbruikers");
+       $sqlUitlezen= mysqli_query($MySQL, "SELECT * FROM 'gebruikers' WHERE 'E-mail'='".$_POST['User']."' AND 'Wachtwoord'='".$_POST['Pass']."' ");
        $sqlAantal= mysqli_num_rows($sqlUitlezen);
 
-       if($sqlAantal > 0){
-           while ($sqlData= mysqli_fetch_assoc($sqlUitlezen)){
+       if($sqlAantal ==1){
+        $sqlData= mysqli_fetch_assoc($sqlUitlezen);
 
-           }
+           $_SESSION['Inloggen'] = $sqlData['Gebruikers'];
+       }else{
+           echo 'sorry, deze gegevens ken ik niet';
        }
     }
 }
