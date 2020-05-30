@@ -24,7 +24,7 @@ include('db.php');
 if (isset($_SEESION['Inloggen'])){
     echo 'Welkom op bakken & co!';
 }else{
-    echo 'Login';
+
     
     if (isset($_POST['submit'])){
             $sqlUitlezen = mysqli_query($MySQL, "SELECT * FROM `Gebruikers` WHERE `E-mail` = '".$_POST['User']."' AND `Wachtwoord` = '".$_POST['Pass']."'");
@@ -35,7 +35,7 @@ if (isset($_SEESION['Inloggen'])){
                 
                 $_SEESION['Inloggen'] = $sqlData['Gebruikers'];
             }else{
-                echo 'Sorry, deze gevens ken ik niet';
+                echo 'Sorry, deze gegevens ken ik niet';
             }
     }
     
