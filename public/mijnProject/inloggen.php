@@ -19,6 +19,7 @@
             </div>
             <div id= "midden"> 
                 <?php
+                include('db.php');
                     if (isset($_SESSION['Inloggen'])){
                         echo 'Welkom op Bakken & co!';
                     }
