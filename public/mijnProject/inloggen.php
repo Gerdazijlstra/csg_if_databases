@@ -54,7 +54,6 @@
            </div>
             <div id= "footer">
             </div>
-<<<<<<< HEAD
         </div>
         <div id= "menu"> 
             <a href="index.php">home</a>
@@ -69,7 +68,7 @@ echo 'Welkom op Bakken & co!';
 else{
     echo 'Inloggen';
     if(isset($_POST['submit'])){
-       $sqlUitlezen= mysqli_query($MySQL, "SELECT * FROM 'gebruikers' WHERE 'E-mail'='".$_POST['User']."' AND 'Wachtwoord'='".$_POST['Pass']."' ");
+       $sqlUitlezen= mysqli_query($MySQL, "SELECT * FROM 'Gebruikers' WHERE 'E-mail'='".$_POST['User']."' AND 'Wachtwoord'='".$_POST['Pass']."' ");
        $sqlAantal= mysqli_num_rows($sqlUitlezen);
 
        if($sqlAantal ==1){
@@ -103,8 +102,5 @@ else{
         </div>
         <div id= "footer">
         </div>
-=======
-        </div>    
->>>>>>> 1191a893974f7b39e0d5cf5fad098d07d43525db
     </body>
 </html>
