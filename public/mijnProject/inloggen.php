@@ -19,10 +19,10 @@
             </div>
             <div id= "midden"> 
                <?php
-include('db.php');
+
 
 if (isset($_SEESION['Inloggen'])){
-    echo 'Welkom op bakken & co!';
+    echo '<h1>Welkom op bakken & co!</h1>';
 }else{
 
     
