@@ -1,4 +1,6 @@
-<?php include('inc/db.php');
+<?php 
+session_start();
+include('inc/db.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -22,7 +24,14 @@
             <img src="cake2.jpg" alt="cake" width="100%" height="40%">
             <img src="cookies.jpg" alt="cake" width="100%" >    
             <section id="content">
-            <?php include ('inc/plugin.php'); ?>
+            <?php 
+            if (isset($_GET['module']) && ($_GET['module'] == 'inloggen')){
+                include ('inc/inloggen.php');
+            }
+            else{
+                include ('inc/plugin.php');
+            }
+             ?>
             </section>
             
             </div>
