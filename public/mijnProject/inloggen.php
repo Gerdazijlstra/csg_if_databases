@@ -21,7 +21,7 @@
                <?php
 
 
-if (isset($_SEESION['Inloggen'])){
+if (isset($_SESSION['Inloggen'])){
     echo '<h1>Welkom op bakken & co!</h1>';
 }else{
 
@@ -33,7 +33,7 @@ if (isset($_SEESION['Inloggen'])){
             if ($sqlAantal == 1){
                 $sqlData = mysqli_fetch_assoc($sqlUitlezen);
                 
-                $_SEESION['Inloggen'] = $sqlData['Gebruikers'];
+                $_SESSION['Inloggen'] = $sqlData['Gebruikers'];
             }else{
                 echo 'Sorry, deze gegevens ken ik niet';
             }

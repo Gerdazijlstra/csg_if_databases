@@ -21,7 +21,9 @@
             <div id= "midden2"> 
             <img src="cake2.jpg" alt="cake" width="100%" height="40%">
             <img src="cookies.jpg" alt="cake" width="100%" >    
-
+            <section id="content">
+            <?php include ('inc/plugin.php'); ?>
+            </section>
             
             </div>
             <div id= "footer">
