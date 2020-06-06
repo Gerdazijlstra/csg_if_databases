@@ -26,10 +26,10 @@ include('mijnProject/db.php');
             <section id="content">
             <?php 
             if (isset($_GET['module']) && ($_GET['module'] == 'inloggen')){
-                include ('inc/inloggen.php');
+                include ('mijnProject/inloggen.php');
             }
             else{
-                include ('inc/plugin.php');
+                include ('mijnProject/plugin.php');
             }
              ?>
             </section>
