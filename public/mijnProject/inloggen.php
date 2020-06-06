@@ -71,7 +71,7 @@ $result = mysqli_query($MySQL,"SELECT Gebruikersnaam, Wachtwoord FROM Gebruikers
 $row = mysqli_fetch_array($result);
 
 if($row["Gebruikersnaam"]==$Gebruikersnaam && $row["Wachtwoord"]==$Wachtwoord)
-    echo"yej hij doet het";    
+    echo"hij doet het";    
 else
     echo"Inloggegevens zijn fout";
 ?>
