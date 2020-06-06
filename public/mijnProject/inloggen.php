@@ -20,7 +20,7 @@
                   type="password" id="users_pass"></input></td>
             </tr>
             <tr>
-                <td><input type="submit" value="Submit"/>
+                <td><input type="submit" value="Inloggen"/>
                 <td><input type="reset" value="Reset"/>
             </tr>
         </table>
