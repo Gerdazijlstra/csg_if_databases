@@ -1,6 +1,6 @@
 <?php 
 session_start();
-include('inc/db.php');
+include('mijnProject/db.php');
 ?>
 <!DOCTYPE html>
 <html>
