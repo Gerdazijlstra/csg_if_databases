@@ -1,76 +1,30 @@
-
-<!DOCTYPE html>
+<!DOCTYPE html 
 <html>
-    <head>
-        <title>Bakken & co</title>
-        <link rel="stylesheet" type="text/css" href="css/design.css">
-        <title>recepten</title><link rel="stylesheet" href="design.css" type="text/css">
-    </head>
-    <body>
-        <div id="center">
-            <div id= "header"> 
-             <img src="logo1.jpg" alt="logo" height="100%" style="margin: auto" > 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title> Login Form</title>
+</head>
+<body>
+    <form method="post" action="validate_login.php" >
+        <table border="1" >
+            <tr>
+                <td><label for="users_email">Email</label></td>
+                <td><input type="text" 
 
-            </div>
-            <div id= "menu"> 
-                <a href="index.php">home</a>
-                <a href="recepten.php">recepten</a>
-                <a href="inloggen.php">inloggen</a>
-            </div>
-            <div id= "midden"> 
-               <?php
+                  name="users_email" id="users_email"></td>
+            </tr>
+            <tr>
+                <td><label for="users_pass">Password</label></td>
+                <td><input name="users_pass" 
 
-
-if (isset($_SESSION['Inloggen'])){
-    echo '<h1>Welkom op bakken & co!</h1>';
-}else{
-
-    
-    if (isset($_POST['submit'])){
-            $sqlUitlezen = mysqli_query($MySQL, "SELECT * FROM `Gebruikers` WHERE `E-mail` = '".$_POST['User']."' AND `Wachtwoord` = '".$_POST['Pass']."'");
-            $sqlAantal = mysqli_num_rows($sqlUitlezen);
-                    
-            if ($sqlAantal == 1){
-                $sqlData = mysqli_fetch_assoc($sqlUitlezen);
-                
-                $_SESSION['Inloggen'] = $sqlData['Gebruikers'];
-            }else{
-                echo 'Sorry, deze gegevens ken ik niet';
-            }
-    }
-    
-    ?>
-        <form method="post" action="#">
-         <table width="100%" border="0" cellspacing="5" cellpadding="0">
-         <tr>
-          <td width="100">Gebruikersnaam:</td>
-          <td><input type="text" name="User" size="15" required="required" /></td>
-         </tr>
-         <tr>
-          <td>Wachtwoord:</td>
-          <td><input type="password" name="Pass" size="15" required="required" /></td>
-         </tr>
-         <tr>
-          <td>&nbsp;</td>
-          <td><input type="submit" name="submit" value="Login" /></td>
-         </tr>
-        </table></form>
-    <?php
-}
-?>
-                  
-           </div>
-            <div id= "footer">
-            </div>
-        </div>
-        <div id= "menu"> 
-            <a href="index.php">home</a>
-            <a href="recepten.php">recepten</a>
-            <a href="inloggen.php">inloggen</a>
-        </div>
-        <div id= "midden"> 
-        </div>
-        <div id= "footer">
-        </div>
-    </body>
+                  type="password" id="users_pass"></input></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit"/>
+                <td><input type="reset" value="Reset"/>
+            </tr>
+        </table>
+    </form>
+</body>
 </html>
+
