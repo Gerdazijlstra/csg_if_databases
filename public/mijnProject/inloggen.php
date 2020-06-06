@@ -6,7 +6,7 @@
 </head>
 <body>
     <form method="post" action="validate_login.php" >
-        <table border="1" >
+        <table >
             <tr>
                 <td><label for="users_email">Email</label></td>
                 <td><input type="text" 
