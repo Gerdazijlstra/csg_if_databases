@@ -51,7 +51,10 @@ $result = mysqli_query($MySQL,"SELECT Gebruikersnaam, Wachtwoord FROM Gebruikers
 $row = mysqli_fetch_array($result);
 
 if($row["Gebruikersnaam"]==$Gebruikersnaam && $row["Wachtwoord"]==$Wachtwoord)
-    echo"You are a validated user.";
+    echo"yej hij doet het";
+
+
+    
 else
-    echo"Sorry, your credentials are not valid, Please try again.";
+    echo"Inloggegevens zijn fout";
 ?>
