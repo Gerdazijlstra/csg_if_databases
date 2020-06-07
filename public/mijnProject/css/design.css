@@ -26,15 +26,15 @@ h1 {
     display: flex;
     text-align: center;
     background-color: white;
-    margin-top: 10px;
+    margin-top: 0;
 }    
 #menu {
     overflow: hidden;
     background-color: #9abaaa;
-    height: 45px;
+    height: 50px;
     width: 100%;
     font-family: "Lucida Console", Courier, monospace;
-    margin-top: 10px;
+    margin-top: 0;
 }
 #menu a {
     float: left;
@@ -52,7 +52,7 @@ h1 {
     width:100%;  
     clear: both; 
     background-color: white;
-    margin-top: 10px;
+    margin-top: 0;
 } 
 #midden {
     display: block;
@@ -83,8 +83,8 @@ h1 {
     font-family: "Lucida Console", Courier, monospace;
     text-align: center;
     background-color: #9abaaa;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
     }
 
 
