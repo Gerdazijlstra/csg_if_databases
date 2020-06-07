@@ -3,7 +3,7 @@ body,html {
     margin: 0;
 }
 body{ 
-    background-color: white;
+    background-color: green;
 }
 h1 {
     text-align: center;
@@ -53,7 +53,7 @@ h1 {
     background-color: white;
     margin-top: 1%;
 } 
-#midden2 {
+#midden {
     display: block;
     height:auto;
     margin: 0;
