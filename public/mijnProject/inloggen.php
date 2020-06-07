@@ -61,15 +61,5 @@ if (isset($_SESSION['Inloggen'])){
            </div>
             <div id= "footer">
             </div>
-        </div>
-        <div id= "menu"> 
-            <a href="index.php">home</a>
-            <a href="recepten.php">recepten</a>
-            <a href="inloggen.php">inloggen</a>
-        </div>
-        <div id= "midden"> 
-        </div>
-        <div id= "footer">
-        </div>
     </body>
 </html>
