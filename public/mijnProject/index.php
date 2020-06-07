@@ -25,9 +25,13 @@ include('mijnProject/db.php');
             <img src="cake2.jpg" alt="cake" width="100%" height="40%">
 =======
             <div id= "midden2"> 
+<<<<<<< HEAD
             <img src="Cupcakeplaatje.jpg" alt="cupcake" width="100%" height="40%">
 >>>>>>> 373dd25ee15da8f10bc202c12fc918fd33df7dcc
             <img src="cookies.jpg" alt="cake" width="100%" >    
+=======
+            <img src="Cupcakeplaatje.jpg" alt="cupcake" width="100%" height="40%">   
+>>>>>>> f4f1971733e3e2383de7d3f8a5a0254c291821d6
             <section id="content">
             <?php 
             if (isset($_GET['module']) && ($_GET['module'] == 'inloggen')){
