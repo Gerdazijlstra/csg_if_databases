@@ -8,6 +8,7 @@ body{
 }
 h1 {
     text-align: center;
+
 }
 
 
@@ -35,6 +36,7 @@ h1 {
     height: 45px;
     width: 100%;
     margin-top: 1%;
+    font-family: "Lucida Console", Courier, monospace;
 }
 #menu a {
     float: left;
@@ -79,6 +81,7 @@ h1 {
 }
 #footer {
     height: 20%;
+    font-family: "Lucida Console", Courier, monospace;
     text-align: center;
     background-color: #a0cec2;
     margin-top: 1%;
