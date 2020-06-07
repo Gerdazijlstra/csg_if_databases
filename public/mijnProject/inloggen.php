@@ -26,7 +26,7 @@ if (isset($_SESSION['Inloggen'])){
 
     
     if (isset($_POST['submit'])){
-            $sqlUitlezen = mysqli_query($MySQL, "SELECT * FROM `Gebruikers` WHERE `E-mail` = '".$_POST['User']."' AND `Wachtwoord` = '".$_POST['Pass']."'");
+            $sqlUitlezen = mysqli_query($MySQL, "SELECT * FROM `Gebruikers` WHERE `Gebruikersnaam` = '".$_POST['User']."' AND `Wachtwoord` = '".$_POST['Pass']."'");
             $sqlAantal = mysqli_num_rows($sqlUitlezen);
                     
             if ($sqlAantal == 1){
