@@ -19,21 +19,21 @@
             </div>
             <div id= "midden">
                 <hr>
-                <h1>cookies</h1>
+                <h1>Koekjes</h1>
                 <hr>
                 <div id= "a">
                     <div class="een"></div>
                     <div class="twee"></div>
                 </div>
                 <hr>
-                <h1>cake</h1>
+                <h1>Cake</h1>
                 <hr>
                 <div id="b">
                     <div class="drie"></div>
                     <div class="vier"></div>
                 </div> 
                 <hr>
-                <h1>hartig</h1>
+                <h1>Hartig</h1>
                 <hr>   
                 <div id="c">
                     <div class="vijf"></div>
