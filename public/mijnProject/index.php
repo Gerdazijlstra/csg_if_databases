@@ -10,6 +10,7 @@ include('mijnProject/db.php');
         <title>recepten</title><link rel="stylesheet" href="design.css" type="text/css">
     </head>
     <body>
+   <img src="achtergrond.JPG" alt="cupcake" width="100%" height="100%">  
         <div id="center">
             <div id= "header"> 
              <img src="logo1.jpg" alt="logo" height="100%" style="margin: auto" > 
