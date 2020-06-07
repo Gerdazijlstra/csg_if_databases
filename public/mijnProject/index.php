@@ -40,6 +40,8 @@ include('mijnProject/db.php');
             
             </div>
             <div id= "footer">
+            <br>
+            <br>
             <p>&copy; 2020 - Website van Dianne en Gerda</p>
             </div>
         </div>    

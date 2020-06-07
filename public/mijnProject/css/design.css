@@ -21,7 +21,7 @@ h1 {
     margin: 0;
 }
 #header {
-    height: 20%;
+    height: 200px;
     text-align: left;
     display: flex;
     text-align: center;
@@ -31,7 +31,7 @@ h1 {
 #menu {
     overflow: hidden;
     background-color: rgb(223, 223, 210);
-    height: 5%;
+    height: 45px;
     width: 100%;
     margin-top: 1%;
 }
@@ -85,7 +85,7 @@ h1 {
     text-align: center;
     background-color: rgb(223, 223, 210);
     margin-top: 1%;
-    margin-bottom: 1%
+    margin-bottom: 0%
     }
 
 

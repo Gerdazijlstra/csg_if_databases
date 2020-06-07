@@ -42,7 +42,7 @@
                 <div id="d">
                     <div class="zeven"></div>
                     <div class="acht"></div>
-            </div>
+                    </div>
             </div>
             <div id= "footer">
             </div>
