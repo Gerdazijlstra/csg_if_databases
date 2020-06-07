@@ -20,8 +20,13 @@ include('mijnProject/db.php');
                 <a href="recepten.php">recepten</a>
                 <a href="inloggen.php">inloggen</a>
             </div>
+<<<<<<< HEAD
             <div id= "midden"> 
             <img src="cake2.jpg" alt="cake" width="100%" height="40%">
+=======
+            <div id= "midden2"> 
+            <img src="Cupcakeplaatje.jpg" alt="cupcake" width="100%" height="40%">
+>>>>>>> 373dd25ee15da8f10bc202c12fc918fd33df7dcc
             <img src="cookies.jpg" alt="cake" width="100%" >    
             <section id="content">
             <?php 
