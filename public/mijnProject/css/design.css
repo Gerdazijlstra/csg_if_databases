@@ -3,6 +3,7 @@ body,html {
     margin: 0;
 }
 body{ 
+   background-image: url("achtergrond.JPG");
     background-color: goldenrod;
 }
 h1 {
