@@ -20,29 +20,27 @@ include('mijnProject/db.php');
                 <a href="recepten.php">recepten</a>
                 <a href="inloggen.php">inloggen</a>
             </div>
-
             <div id= "midden"> 
     
-            <div id= "midden2"> 
+          
 
-            <img src="achtergrond1.JPG" alt="cupcake" width="100%" height="40%">   
+                <img src="achtergrond1.JPG" alt="cupcake" width="100%" height="40%">   
 
-            <section id="content">
-            <?php 
-            if (isset($_GET['module']) && ($_GET['module'] == 'inloggen')){
-                include ('mijnProject/inloggen.php');
-            }
-            else{
-                include ('mijnProject/plugin.php');
-            }
-             ?>
-            </section>
-            
+                <section id="content">
+                <?php 
+                if (isset($_GET['module']) && ($_GET['module'] == 'inloggen')){
+                    include ('mijnProject/inloggen.php');
+                }
+                else{
+                    include ('mijnProject/plugin.php');
+                }
+                ?>
+                </section>
+                
             </div>
             <div id= "footer">
-            <br>
-            <br>
-            <p>&copy; 2020 - Website van Dianne en Gerda</p>
+            <br><br><br>
+                <p>&copy; 2020 - Website van Dianne en Gerda</p>
             </div>
         </div>    
     </body>
