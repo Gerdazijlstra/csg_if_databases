@@ -25,7 +25,7 @@ include('mijnProject/db.php');
     
             <div id= "midden2"> 
 
-            <img src="Cupcakeplaatje.jpg" alt="cupcake" width="100%" height="40%">   
+            <img src="Donut.jpg" alt="cupcake" width="100%" height="40%">   
 
             <section id="content">
             <?php 
