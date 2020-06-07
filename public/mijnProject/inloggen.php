@@ -33,7 +33,6 @@ if (isset($_SESSION['Inloggen'])){
                 $sqlData = mysqli_fetch_assoc($sqlUitlezen);
                 
                 $_SESSION['Inloggen'] = $sqlData['Gebruikers'];
-                echo 'het werkt';
             }else{
                 echo 'Sorry, deze gegevens ken ik niet';
             }
