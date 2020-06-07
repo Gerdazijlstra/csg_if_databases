@@ -58,12 +58,8 @@ h1 {
     height:auto;
     margin: 0;
 }
-#midden {
-    display: block;
-    height: 78%;
-}
 #a, #b, #c, #d {
-    height: 25%;  
+    height: 300px;  
     width: 100% ;
     background-color: white;
 }
