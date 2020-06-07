@@ -24,7 +24,11 @@ include('mijnProject/db.php');
     
           
 
-                <img src="achtergrond1.JPG" alt="cupcake" width="100%" height="40%">   
+                 <div class="container">
+  <img src="achtergrond1.JPG" alt="bla" style="width:100%;">
+
+  <div class="centered">Welkom op Bakken & co!</div>
+</div>  
 
                 <section id="content">
                 <?php 
@@ -38,6 +42,7 @@ include('mijnProject/db.php');
                 </section>
                 
             </div>
+
             <div id= "footer">
             <br><br><br>
                 <p>&copy; 2020 - Website van Dianne en Gerda</p>
