@@ -3,7 +3,7 @@ body,html {
     margin: 0;
 }
 body{ 
-   background-color: #ccf1ed;
+   background-color: #f0f9f6;
     
 }
 h1 {
@@ -31,7 +31,7 @@ h1 {
 }    
 #menu {
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.623);
+    background-color: #a0cec2;
     height: 45px;
     width: 100%;
     margin-top: 1%;
@@ -80,7 +80,7 @@ h1 {
 #footer {
     height: 20%;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.623);
+    background-color: #a0cec2;
     margin-top: 1%;
     margin-bottom: 0%
     }
