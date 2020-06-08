@@ -53,10 +53,7 @@
                         </table></form>
                     <?php
                 }
-                ?>
-                 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>                
-          
-          
+                ?>   
            </div>
             <div id= "footer">
             <p>&copy; 2020 - Website van Dianne en Gerda</p>
