@@ -24,6 +24,7 @@
                     else{
                         if (isset($_POST['submit'])){
                                 $sqlUitlezen = mysqli_query($MySQL, "SELECT * FROM `Gebruikers` WHERE `Gebruikersnaam` = '".$_POST['User']."' AND `Wachtwoord` = '".$_POST['Pass']."'");
+                               echo $sqlUitlezen;
                                 $sqlAantal = mysqli_num_rows($sqlUitlezen);
                                         
                                 if ($sqlAantal == 1){
@@ -34,7 +35,10 @@
                                 else{
                                     echo 'Sorry, deze gegevens ken ik niet';
                                 }
-                        }    
+                        }   
+                echo '<PRE>'; 
+                print_r($_POST);
+                echo '</PRE>'; 
                 ?>
                         <form method="post" action="#">
                         <table width="100%" border="0" cellspacing="5" cellpadding="0">
