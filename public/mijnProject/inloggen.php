@@ -15,6 +15,7 @@
                 <a href="index.php">home</a>
                 <a href="recepten.php">recepten</a>
                 <a href="inloggen.php">inloggen</a>
+                
             </div>
             <div id= "midden"> 
                <?php
@@ -57,9 +58,7 @@
                         </table></form>
                     <?php
                 }
-                ?>
-                 
-          
+                ?>   
            </div>
             <div id= "footer">
             <p>&copy; 2020 - Website van Dianne en Gerda</p>
