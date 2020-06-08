@@ -12,7 +12,7 @@ include('mijnProject/db.php');
     <body>
         <div id="center">
             <div id= "header"> 
-             <img src="logo1.jpg" alt="logo" height="100%" style="margin: auto" > 
+             <img src="logoo.png" alt="logo" height="100%" style="margin: auto" > 
 
             </div>
             <div id= "menu"> 
@@ -21,30 +21,23 @@ include('mijnProject/db.php');
                 <a href="inloggen.php">inloggen</a>
             </div>
             <div id= "midden"> 
-    
-          
+                <div class="container">
+                    <img src="achtergrond1.JPG" alt="bla" style="width:100%;">
 
-                 <div class="container">
-  <img src="achtergrond1.JPG" alt="bla" style="width:100%;">
-
-  <div class="centered">Welkom op Bakken & co!</div>
-</div>  
-
+                    <div class="centered">Welkom op Bakken & co!</div>
+                </div>  
                 <section id="content">
-                <?php 
-                if (isset($_GET['module']) && ($_GET['module'] == 'inloggen')){
-                    include ('mijnProject/inloggen.php');
-                }
-                else{
-                    include ('mijnProject/plugin.php');
-                }
-                ?>
+                    <?php 
+                        if (isset($_GET['module']) && ($_GET['module'] == 'inloggen')){
+                            include ('mijnProject/inloggen.php');
+                        }
+                        else{
+                            include ('mijnProject/plugin.php');
+                        }
+                    ?>
                 </section>
-                
             </div>
-
             <div id= "footer">
-            <br><br><br>
                 <p>&copy; 2020 - Website van Dianne en Gerda</p>
             </div>
         </div>    

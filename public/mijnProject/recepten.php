@@ -9,7 +9,7 @@
     <body>
         <div id="center">
             <div id= "header"> 
-             <img src="logo1.jpg" alt="logo" height="100%" style="margin: auto" > 
+             <img src="logoo.png" alt="logo" height="100%" style="margin: auto" > 
 
             </div>
             <div id= "menu"> 
@@ -22,30 +22,64 @@
                 <h1>Koekjes</h1>
                 <hr>
                 <div id= "a">
-                    <div class="een"></div>
-                    <div class="twee"></div>
+                    <div class="een">
+                        <img src="cake.jpg" alt="logo" height="80%" style="margin: auto" >
+                        <br><br>
+                        <a href="index.php">klik hier</a>
+                    </div>
+                    <div class="twee">
+                        <img src="cake.jpg" alt="logo" height="80%" style="margin: auto" >  
+                        <br><br>
+                        <a href="index.php">klik hier</a>                  
+                    </div>
                 </div>
                 <hr>
                 <h1>Cake</h1>
                 <hr>
                 <div id="b">
-                    <div class="drie"></div>
-                    <div class="vier"></div>
+                    <div class="drie">
+                        <img src="cake.jpg" alt="logo" height="80%" style="margin: auto" >
+                        <br><br>
+                        <a href="index.php">klik hier</a>
+                    </div>
+                    <div class="vier">
+                        <img src="cake.jpg" alt="logo" height="80%" style="margin: auto" >
+                        <br><br>
+                        <a href="index.php">klik hier</a>
+                    </div>
                 </div> 
                 <hr>
                 <h1>Hartig</h1>
                 <hr>   
                 <div id="c">
-                    <div class="vijf"></div>
-                    <div class="zes"></div>
+                    <div class="vijf">
+                        <img src="cake.jpg" alt="logo" height="80%" style="margin: auto" >
+                        <br><br>
+                        <a href="index.php">klik hier</a>
+                    </div>
+                    <div class="zes">
+                        <img src="cake.jpg" alt="logo" height="80%" style="margin: auto" >
+                        <br><br>
+                        <a href="index.php">klik hier</a>
+                    </div>
                 </div>
+                <hr>
+                <h1> spul </h1>
+                <hr>
                 <div id="d">
-                    <div class="zeven"></div>
-                    <div class="acht"></div>
+                    <div class="zeven">
+                        <img src="cake.jpg" alt="logo" height="80%" style="margin: auto" >
+                        <br><br>
+                        <a href="index.php">klik hier</a>
+                    </div>
+                    <div class="acht">
+                        <img src="cake.jpg" alt="logo" height="80%" style="margin: auto" >
+                        <br><br>
+                        <a href="index.php">klik hier</a>
+                    </div>
                     </div>
             </div>
             <div id= "footer">
-            <br><br><br>
             <p>&copy; 2020 - Website van Dianne en Gerda</p>
             </div>
         </div>    
