@@ -24,7 +24,7 @@ include('mijnProject/db.php');
                 <div class="container">
                     <img src="achtergrond1.JPG" alt="bla" style="width:100%;">
 
-                    <div class="centered">Welkom op Bakken & co!</div>
+                    <div class="centered">Welkom op Bakken & Co!</div>
                 </div>  
                 <section id="content">
                     <?php 
