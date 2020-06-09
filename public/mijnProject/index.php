@@ -21,10 +21,13 @@ include('mijnProject/db.php');
                 <a href="inloggen.php">inloggen</a>
             </div>
             <div id= "midden"> 
+
                 <div class="container">
                     <img src="achtergrond1.JPG" alt="bla" style="width:100%;">
 
                     <div class="centered">Welkom op Bakken & Co!</div>
+                    <p>Op deze bakwebsite kun je allemaal recepten vinden die je kunt uitproberen. Laat je inspireren door de lekkere baksels van Bakken & Co!</p>
+                   
                 </div>  
                 <section id="content">
                     <?php 

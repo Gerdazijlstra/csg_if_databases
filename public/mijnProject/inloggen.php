@@ -18,6 +18,7 @@
                 
             </div>
             <div id= "midden"> 
+            
                <?php
                     if (isset($_SESSION['Inloggen'])){
                         echo '<h1>Welkom op bakken & co!</h1>';
