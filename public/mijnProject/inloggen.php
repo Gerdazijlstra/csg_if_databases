@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
     <head>
@@ -19,6 +20,11 @@
             </div>
             <div id= "midden"> 
             
+=======
+<?php
+require('php/begin.php');
+?> 
+>>>>>>> ab729baa3a48b22a6fb9213e7e0222cb252b268a
                <?php
                     if (isset($_SESSION['Inloggen'])){
                         echo '<h1>Welkom op bakken & co!</h1>';
@@ -60,9 +66,6 @@
                     <?php
                 }
                 ?>   
-           </div>
-            <div id= "footer">
-            <p>&copy; 2020 - Website van Dianne en Gerda</p>
-            </div>
-    </body>
-</html>
+<?php
+require('php/eind.php');
+?>
