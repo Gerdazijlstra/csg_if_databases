@@ -1,30 +1,6 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Bakken & co</title>
-        <link rel="stylesheet" type="text/css" href="css/design.css">
-        <title>recepten</title><link rel="stylesheet" href="design.css" type="text/css">
-    </head>
-    <body>
-        <div id="center">
-            <div id= "header"> 
-             <img src="logoo.png" alt="logo" height="100%" style="margin: auto" > 
-
-            </div>
-            <div id= "menu"> 
-                <a href="index.php">home</a>
-                <a href="recepten.php">recepten</a>
-                <a href="inloggen.php">inloggen</a>
-                
-            </div>
-            <div id= "midden"> 
-            
-=======
 <?php
 require('php/begin.php');
 ?> 
->>>>>>> ab729baa3a48b22a6fb9213e7e0222cb252b268a
                <?php
                     if (isset($_SESSION['Inloggen'])){
                         echo '<h1>Welkom op bakken & co!</h1>';
