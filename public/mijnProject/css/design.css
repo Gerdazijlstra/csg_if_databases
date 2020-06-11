@@ -17,6 +17,10 @@ h1 {
     font-weight: normal;
     
 }
+ul {
+  list-style-type: circle;
+   
+}
 
 #center{
     width: 65%;
