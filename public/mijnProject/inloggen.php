@@ -1,26 +1,45 @@
 <?php
-require('php/begin.php');
-include('db.php');
-session_start();
-
-    
-if (isset($_POST['Gebruikersnaam'])){
-    $Gebruikersnaam = $_POST['Gebruikersnaam'];
-    $Wachtwoord = $_POST['Wachtwoord'];
-    $hash = hash('sha384',$Wachtwoord);
-    $sql = "SELECT * FROM Gebruikers WHERE Gebruikersnaam ='".$Gebruikersnaam."' AND Wachtwoord = '".$hash."'";
-    $records= mysqli_query($DBverbinding, $sql);
-    if (mysqli_num_rows($records)== 1) {
-        $_SESSION["user"] = "$Gebruikersnaam";
-        $_SESSION["melding"] = "U bent ingelogd met {$SESSION["user"]} .";
-        $_SESSION["alert"] = 1;
-    }
-    else {
-        $_SESSION["melding"] = "Het is niet gelukt om in te loggen. Probeer het nog een keer.";
-        $_SESSION["alert"] = 0;
-    }
+echo '<h1>Welkom op bakken & co!</h1>';
+                    }
+                    else{
+                        if (isset($_POST['submit'])){
+                                $sqlUitlezen = mysqli_query($MySQL, "SELECT * FROM `Gebruikers` WHERE `Gebruikersnaam` = '".$_POST['User']."' AND `Wachtwoord` = '".$_POST['Pass']."'");
+                               echo $sqlUitlezen;
+                                $sqlAantal = mysqli_num_rows($sqlUitlezen);
+                                        
+                                if ($sqlAantal == 1){
+                                    $sqlData = mysqli_fetch_assoc($sqlUitlezen);
+                                    
+                                    $_SESSION['Inloggen'] = $sqlData['Gebruikers'];
+                                }
+                                else{
+                                    echo 'Sorry, deze gegevens ken ik niet';
+                                }
+                        }   
+                echo '<PRE>'; 
+                print_r($_POST);
+                echo '</PRE>'; 
+                ?>
+                        <form method="post" action="#">
+                        <table width="100%" border="0" cellspacing="5" cellpadding="0">
+                        <tr>
+                        <td width="100">Gebruikersnaam:</td>
+                        <td><input type="text" name="User" size="15" required="required" /></td>
+                        </tr>
+                        <tr>
+                        <td>Wachtwoord:</td>
+                        <td><input type="password" name="Pass" size="15" required="required" /></td>
+                        </tr>
+                        <tr>
+                        <td>&nbsp;</td>
+                        <td><input type="submit" name="submit" value="Login" /></td>
+                        </tr>
+                        </table></form>
+                    <?php
+                }
+                ?>   
+<?php
 require('php/eind.php');
-}
 ?>
 
                         
