@@ -7,12 +7,12 @@ require('db.php');
                 <hr>
                 <div id= "a">
                     <div class="een">
-                        <img src="pics/zandkoekje.jpg" alt="recept1" height="80%" style="margin: auto" >
+                        <img src="pics/Koekies.png" alt="recept1" height="80%" style="margin: auto" >
                         <br><br>
                         <a href="recept1.php">Zandkoekjes</a>
                     </div>
                     <div class="twee">
-                        <img src="pics/appelcake.jpg" alt="recept2" height="80%" style="margin: auto" >  
+                        <img src="pics/applcake.png" alt="recept2" height="80%" style="margin: auto" >  
                         <br><br>
                         <a href="recept2.php">Appelcake</a>                  
                     </div>
@@ -24,7 +24,7 @@ require('db.php');
                         <a href="recept3.php">Aardbeientompoes</a>
                     </div>
                     <div class="vier">
-                        <img src="pics/choco.jpg" alt="recept4" height="80%" style="margin: auto" >
+                        <img src="pics/chocotaart.png" alt="recept4" height="80%" style="margin: auto" >
                         <br><br>
                         <a href="recept4.php">Chocoladetaart</a>
                     </div>
@@ -50,9 +50,9 @@ require('db.php');
                         <a href="recept7.php">Hartige broodtaartjes</a>
                     </div>
                     <div class="acht">
-                        <img src="pics/Hartigetaart.png" alt="recept8" height="80%" style="margin: auto" >
+                        <img src="pics/hartigtaart.png" alt="recept8" height="80%" style="margin: auto" >
                         <br><br>
-                        <a href="recept8.php">Hrtige taart met tonijn</a>
+                        <a href="recept8.php">Hartige taart met tonijn</a>
                     </div>
                     </div>
 <?php
