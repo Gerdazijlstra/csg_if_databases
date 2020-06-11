@@ -1,6 +1,7 @@
 
 <?php
 require('php/begin.php');
+require('db.php');
 ?>
                 <hr>
                 <h1>zoet</h1>
@@ -9,24 +10,24 @@ require('php/begin.php');
                     <div class="een">
                         <img src="cake.jpg" alt="recept1" height="80%" style="margin: auto" >
                         <br><br>
-                        <a href="recept1.php">zandkoekjes</a>
+                        <a href="recept1.php">Zandkoekjes</a>
                     </div>
                     <div class="twee">
                         <img src="cake.jpg" alt="recept2" height="80%" style="margin: auto" >  
                         <br><br>
-                        <a href="recept2.php">appel cake</a>                  
+                        <a href="recept2.php">Appelcake</a>                  
                     </div>
                 </div>
                 <div id="b">
                     <div class="drie">
                         <img src="cake.jpg" alt="recept3" height="80%" style="margin: auto" >
                         <br><br>
-                        <a href="recept3.php">aardbeientompoes</a>
+                        <a href="recept3.php">Aardbeientompoes</a>
                     </div>
                     <div class="vier">
                         <img src="cake.jpg" alt="recept4" height="80%" style="margin: auto" >
                         <br><br>
-                        <a href="recept4.php">chocoladetaart</a>
+                        <a href="recept4.php">Chocoladetaart</a>
                     </div>
                 </div> 
                 <hr>

@@ -60,12 +60,23 @@ h1 {
 
 .centered {
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size:40px;
+  font-size:50px;
+  font-family: "Lucida Console", Courier, monospace;
+  width: 65%;
+  margin:auto;
+}
+.center{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:20px;
   font-family: "Lucida Console", Courier, monospace;
 }
+
 .p{
   position: absolute;
   top: 60%;

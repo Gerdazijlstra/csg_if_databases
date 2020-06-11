@@ -1,5 +1,14 @@
 <?php
 require('php/begin.php');
+require('db.php');
+$check = $check.'db.php geladen.<br>';
+$servernaam = "localhost";
+$Gebruikersnaam = 'username';
+$Wachtwoord = 'password';
+$host = 'localhost';
+$database = 'Bakkenenco';
+$DBverbinding = mysqli_connect($localhost, $Gebruikersnaam, $Wachtwoord, $Bakkenenco);
+$mysqli = new mysqli($localhost, $Gebruikersnaam, $Wachtwoord, $Bakkenenco);
 ?> 
                <?php
                     if (isset($_SESSION['Inloggen'])){
