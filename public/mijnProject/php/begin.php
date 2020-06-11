@@ -14,6 +14,6 @@
             <div id= "menu"> 
                 <a href="index.php">home</a>
                 <a href="recepten.php">recepten</a>
-                <a href="inloggen.php">inloggen</a>
+                <a href="inloggen1.php">inloggen</a>
             </div>
             <div id= "midden">
