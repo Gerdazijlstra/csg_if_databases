@@ -1,93 +1,45 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Bakken & co</title>
-        <link rel="stylesheet" type="text/css" href="css/design.css">
-        <title>recepten</title><link rel="stylesheet" href="design.css" type="text/css">
-    </head>
-    <body>
-        <div id="center">
-            <div id= "header"> 
-             <img src="logo1.jpg" alt="logo" height="100%" style="margin: auto" > 
-
-            </div>
-            <div id= "menu"> 
-                <a href="index.php">home</a>
-                <a href="recepten.php">recepten</a>
-                <a href="inloggen.php">inloggen</a>
-            </div>
-            <div id= "midden"> 
-
 <?php
-?>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title> Login Form</title>
-</head>
-<body>
-    <form method="post" action="validate_login.php" >
-        <table >
-            <tr>
-                <td><label for="Gebruikersnaam">Gebruikersnaam</label></td>
-                <td><input type="text" 
-
-                  name="Gebruikersnaam" id="Gebruikersnaam"></td>
-            </tr>
-            <tr>
-                <td><label for="Wachtwoord">Wachtwoord</label></td>
-                <td><input name="Wachtwoord" 
-
-                  type="password" id="Wachtwoord"></input></td>
-            </tr>
-            <tr>
-                <td><input type="submit" value="Inloggen"/>
-                <td><input type="reset" value="Reset"/>
-            </tr>
-        </table>
-    </form>
-</body>
-</html>
-
+require('php/begin.php');
+echo '<h1>Welkom op bakken & co!</h1>';
+                    
+                    else{
+                        if (isset($_POST['submit'])){
+                                $sqlUitlezen = mysqli_query($MySQL, "SELECT * FROM `Gebruikers` WHERE `Gebruikersnaam` = '".$_POST['User']."' AND `Wachtwoord` = '".$_POST['Pass']."'");
+                               echo $sqlUitlezen;
+                                $sqlAantal = mysqli_num_rows($sqlUitlezen);
+                                        
+                                if ($sqlAantal == 1){
+                                    $sqlData = mysqli_fetch_assoc($sqlUitlezen);
+                                    
+                                    $_SESSION['Inloggen'] = $sqlData['Gebruikers'];
+                                }
+                                else{
+                                    echo 'Sorry, deze gegevens ken ik niet';
+                                }
+                        }   
+                echo '<PRE>'; 
+                print_r($_POST);
+                echo '</PRE>'; 
+                ?>
+                        <form method="post" action="#">
+                        <table width="100%" border="0" cellspacing="5" cellpadding="0">
+                        <tr>
+                        <td width="100">Gebruikersnaam:</td>
+                        <td><input type="text" name="User" size="15" required="required" /></td>
+                        </tr>
+                        <tr>
+                        <td>Wachtwoord:</td>
+                        <td><input type="password" name="Pass" size="15" required="required" /></td>
+                        </tr>
+                        <tr>
+                        <td>&nbsp;</td>
+                        <td><input type="submit" name="submit" value="Login" /></td>
+                        </tr>
+                        </table></form>
+                    <?php
+                }
+                ?>   
 <?php
-
-// Grab User submitted information
-$Gebruikersnaam = $_POST["Gebruikersnaam"];
-$Wachtwoord = $_POST["Wachtwoord"];
-
-// Connect to the database
-$con = mysqli_connect("localhost","username","password");
-// Make sure we connected successfully
-if(! $con)
-{
-    die('Connection Failed'.mysqli_error($link));
-}
-
-// Select the database to use
-mysqli_select_db("Bakkenenco",$con);
-
-$result = mysqli_query($MySQL,"SELECT Gebruikersnaam, Wachtwoord FROM Gebruikers WHERE $Gebruikersnaam = Gebruikersnaam");
-
-$row = mysqli_fetch_array($result);
-
-if($row["Gebruikersnaam"]==$Gebruikersnaam && $row["Wachtwoord"]==$Wachtwoord)
-    echo"hij doet het";    
-else
-    echo"Inloggegevens zijn fout";
+require('php/eind.php');
 ?>
-</div>
-<div id= "footer">
-            </div>
-        </div>
-        <div id= "menu"> 
-            <a href="index.php">home</a>
-            <a href="recepten.php">recepten</a>
-            <a href="inloggen.php">inloggen</a>
-        </div>
-        <div id= "midden"> 
-        </div>
-        <div id= "footer">
-        </div>
-    </body>
-</html>
 
