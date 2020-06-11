@@ -8,7 +8,7 @@
     <body>
         <div id="center">
             <div id= "header"> 
-             <img src="logoo.png" alt="logo" height="100%" style="margin: auto" > 
+             <img src="pics/logoo.png" alt="logo" height="100%" style="margin: auto" > 
 
             </div>
             <div id= "menu"> 
