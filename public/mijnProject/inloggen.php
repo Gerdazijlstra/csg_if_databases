@@ -19,7 +19,7 @@ if (isset($_POST['Gebruikersnaam'])){
         $_SESSION["melding"] = "Het is niet gelukt om in te loggen. Probeer het nog een keer.";
         $_SESSION["alert"] = 0;
     }
-header("Location:mijnProject/index.php");
+require('php/eind.php');
 }
 ?>
 
