@@ -50,9 +50,9 @@ require('db.php');
                         <a href="recept7.php">Hartige broodtaartjes</a>
                     </div>
                     <div class="acht">
-                        <img src="pics/scones.jpg" alt="recept8" height="80%" style="margin: auto" >
+                        <img src="pics/Hartigetaart.png" alt="recept8" height="80%" style="margin: auto" >
                         <br><br>
-                        <a href="recept8.php">Scones</a>
+                        <a href="recept8.php">Hrtige taart met tonijn</a>
                     </div>
                     </div>
 <?php

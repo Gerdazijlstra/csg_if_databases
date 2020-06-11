@@ -7,7 +7,7 @@ require('php/begin.php');
 <title> Login Form</title>
 </head>
 <body>
-    <form method="post" action="validate_login.php" >
+    <form method="post" action="check.php" >
         <table >
             <tr>
                 <td><label for="Gebruikersnaam">Gebruikersnaam</label></td>

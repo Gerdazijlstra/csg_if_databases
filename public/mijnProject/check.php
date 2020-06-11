@@ -1,9 +1,8 @@
 <?php
-echo'<h5 '$check' </h5>';
+echo '<h5 style="color: darkgreen; font-family: courier">'.$check.'</h5>';
 toonSysteemArrays();
 
-
-function toonSysteemArrays(){
+function toonSysteemArrays() {
     echo '<h4>array sessie</h4><pre>';
     print_r($_SESSION);
     echo '</pre>';
