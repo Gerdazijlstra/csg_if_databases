@@ -49,11 +49,11 @@ h1 {
     background-color: #ddd;
     color: black;
 }
-#midden,  { 
+#midden  { 
     width:100%;  
     clear: both; 
     background-color: green;
-    /* wrm is de achtergrond kleur zo kut aan het doen */
+    
     height: auto;
     margin:0;
 } 
