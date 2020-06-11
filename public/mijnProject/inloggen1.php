@@ -17,7 +17,7 @@
         }
 
     if ($ingelogd== '1') {
-    
+        header("Location: ../mijnProject/index.php");
 }
 else {
 ?>
