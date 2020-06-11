@@ -10,9 +10,9 @@ body{
 body {
 background-image: radial-gradient(#212121 20%, transparent 20%),
 radial-gradient(#212121 20%, transparent 20%);
-background-color: #F5E6E0;
-background-position: 0 0, 50px 50px;
-background-size: 10px 10px;
+background-color: #f0f9f6;
+background-position: 0 0, 35px 35px;
+background-size: 70px 70px;
 }
 
 h1 {
@@ -23,6 +23,7 @@ h1 {
     width: 65%;
     height: auto;
     margin: auto;
+    background-color: #f0f9f6;
 }
 #header, #footer {
     width: 100% ;
@@ -61,8 +62,7 @@ h1 {
 #midden  { 
     width:100%;  
     clear: both; 
-    background-color: #F5E6E0;
-    
+    background-color: #f0f9f6;
     height: auto;
     margin:0;
 } 
