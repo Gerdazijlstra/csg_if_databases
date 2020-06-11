@@ -12,8 +12,11 @@ background-size: 70px 70px;
 
 h1 {
     text-align: center;
-
+    color: black;
+    font-family: "Lucida Console", Courier, monospace;
+    
 }
+
 #center{
     width: 65%;
     height: auto;
@@ -61,6 +64,15 @@ h1 {
     height: auto;
     margin:0;
 } 
+#midden a{
+    color: black; 
+    font-family: "Lucida Console", Courier, monospace;
+     text-decoration: none;
+}
+#midden a:hover{
+    color:black;
+      text-decoration: overline underline dotted;
+}
 
 .centered {
   position: absolute;
