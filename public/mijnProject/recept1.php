@@ -1,7 +1,7 @@
 <?php
 require('php/begin.php');
 ?>
-<img src="pics/zandkoekje.jpg" alt="recept1" height="200px" style="margin: auto" >
+<div id= "lings">
 <h1>zandkoekjes </h1>
 <br>
 <h3>benodigheden</h3>
@@ -16,7 +16,10 @@ require('php/begin.php');
 
 <p>2.	Verwarm de oven voor op 175 °C. Bestuif het werkblad met wat bloem en rol het deeg uit tot een lap van ca. 40 x 40 cm en 3-4 mm dik. Steek met behulp van uitsteekvormpjes of een glas koekjes uit het deeg. Kneed het resterende deeg tot een bal en rol opnieuw uit tot al het deeg gebruikt is. Leg de koekjes op enige afstand van elkaar op een met bakpapier beklede bakplaat. </p>
 <p>3.	Bak de koekjes in het midden van de oven in 15-20 min. lichtbruin en gaar. Neem ze van de bakplaat en laat afkoelen, bij voorkeur op een rooster.</p>
-
+</div>
+<div id= "rechts">
+<img src="pics/zandkoekje.jpg" alt="recept1" height="200px" style="margin: auto" >
+</div>
 <?php
 require('php/eind.php');
 ?>
