@@ -6,19 +6,25 @@ require('php/begin.php');
     <br>
     wachtwoord: <input type="text" name="wachtwoord">
     <br>
-    <input type="submit">
+    <input type="submit" >
 </form>
 <br>
 
 <?php
     $naam = $_GET["gebruikersnaam"];
     $woord = $_GET["wachtwoord"];
+    $ingelogd ;
 
-    if ($naam == 'hoi'&& $woord == 'doei') {
-        echo 'u bent ingelogd';
-    } else {
-        echo 'u bent niet ingelogd';
+    if (empty($naam) && empty($woord)) {
+     echo 'log in';
     }
+    else {
+        if ($naam == 'hoi'&& $woord == 'doei') {
+            echo 'u bent ingelogd';
+        } else {
+            echo 'uw gebruikersnaam of wachtwoord is niet goed, probeer nog eens';
+        };
+    };
 
     require('php/eind.php');
 ?>
