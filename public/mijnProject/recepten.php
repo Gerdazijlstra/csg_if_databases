@@ -3,7 +3,7 @@
 require('php/begin.php');
 require('db.php');
 ?>
-                <h1>zoet</h1>
+                <h1>Zoete recepten</h1>
                 <hr>
                 <div id= "a">
                     <div class="een">
@@ -29,7 +29,7 @@ require('db.php');
                         <a href="recept4.php">Chocoladetaart</a>
                     </div>
                 </div> 
-                <h1>Hartig</h1>
+                <h1>Hartige recepten</h1>
                 <hr>   
                 <div id="c">
                     <div class="vijf">
