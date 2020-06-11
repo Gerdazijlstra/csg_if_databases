@@ -16,7 +16,28 @@ h1 {
     font-family: "Lucida Console", Courier, monospace;
     
 }
-
+#midden h1:before{
+    content:'';
+    display:block;
+    width:120px;
+    height:2px;
+    background:#bbb;
+    position:absolute;
+    left:o;
+    top:50%;
+    z-index:auto;
+}
+#midden h1:after{
+    content:'';
+    display:block;
+    width:120px;
+    height:2px;
+    background:#bbb;
+    position:absolute;
+    left:o;
+    top:50%;
+    z-index:auto;
+}
 #center{
     width: 65%;
     height: auto;
