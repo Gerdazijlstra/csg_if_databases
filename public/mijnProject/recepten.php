@@ -33,19 +33,19 @@ require('db.php');
                 <hr>   
                 <div id="c">
                     <div class="vijf">
-                        <img src="pics/broccoli.jpg" alt="recept5" height="80%" style="margin: auto" >
+                        <img src="pics/broccoli.png" alt="recept5" height="80%" style="margin: auto" >
                         <br><br>
                         <a href="recept5.php">Broccoliquiche</a>
                     </div>
                     <div class="zes">
-                        <img src="pics/nachos.jpg" alt="recept6" height="80%" style="margin: auto" >
+                        <img src="pics/nacho.png" alt="recept6" height="80%" style="margin: auto" >
                         <br><br>
                         <a href="recept6.php">Nachos</a>
                     </div>
                 </div>
                 <div id="d">
                     <div class="zeven">
-                        <img src="pics/broodtaartje.jpg" alt="recept7" height="80%" style="margin: auto" >
+                        <img src="pics/broodtaart.png" alt="recept7" height="80%" style="margin: auto" >
                         <br><br>
                         <a href="recept7.php">Hartige broodtaartjes</a>
                     </div>
