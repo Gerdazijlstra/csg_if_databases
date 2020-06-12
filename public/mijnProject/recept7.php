@@ -1,7 +1,7 @@
 <?php
 require('php/begin2.php');
 ?>
-<div id= "lings">
+<div id= "links">
 <h1>Hartige broodtaartjes </h1>
 <br>
 <h3>benodigheden</h3>
