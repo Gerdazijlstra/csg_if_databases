@@ -28,4 +28,4 @@
                 ?>
                 
             </div>
-            <div id= "midden">
+            <div id= "midden2">

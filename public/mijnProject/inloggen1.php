@@ -5,6 +5,7 @@ $Wachtwoord = 'password';
 $database = 'Bakkenenco';
 $DBverbinding = mysqli_connect($servernaam, $Gebruikersnaam, $Wachtwoord, $database);
 $mysqli = new mysqli($localhost, $Gebruikersnaam, $Wachtwoord, $Bakkenenco);
+
     
 require('php/begin.php');
     $naam = $_GET["gebruikersnaam"];
@@ -15,7 +16,7 @@ require('php/begin.php');
         echo 'log in';
         }
         else {
-            if ($naam == 'hoi'&& $woord == 'doei') {
+            if ($naam == $Gebruikersnaam && $woord == $Wachtwoord) {
                 echo 'u bent ingelogd';
                 $ingelogd = 1;
             } else {
