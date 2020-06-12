@@ -14,6 +14,18 @@
             <div id= "menu"> 
                 <a href="index.php">home</a>
                 <a href="recepten.php">recepten</a>
-                <a href="inloggen1.php">inloggen</a>
+                <?php
+                if ($ingelogd == '1') {
+                    ?>
+                   <a href="uitloggen.php">uitloggen</a>
+                   <?php
+                } else {
+                    ?>
+                   <a href="inloggen1.php">inloggen</a>
+                   <?php
+                }
+                
+                ?>
+                
             </div>
             <div id= "midden">
