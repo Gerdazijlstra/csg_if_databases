@@ -1,5 +1,5 @@
 <?php
-require('php/begin.php');
+require('php/begin2.php');
 ?>
 <div id= "lings">
 <img src="pics/Koekies.png" alt="recept1" width="90%" >
