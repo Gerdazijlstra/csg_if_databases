@@ -66,6 +66,14 @@ ul {
     height: auto;
     margin:0;
 } 
+#midden2  { 
+    width:100%;  
+    clear: both; 
+    background-color: #f0f9f6;
+    height: auto;
+    margin:0;
+    display: flex;
+} 
 #midden a{
     color: black; 
     font-family: "Lucida Console", Courier, monospace;
