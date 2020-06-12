@@ -5,7 +5,7 @@ require('php/begin2.php');
     <h1>zandkoekjes </h1>
 </div>
 <div id="blub">
-    <div id= "lings">
+    <div id= "links">
         <img src="pics/Koekies.png" alt="recept1" width="90%" >
         <br>
         <h3>benodigheden</h3>
