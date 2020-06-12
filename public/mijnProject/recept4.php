@@ -6,7 +6,7 @@ require('php/begin.php');
 </div>
 <div id="blub">
     <div id= "links">
-        <img src="pics/Koekies.png" alt="recept1" width="90%" >
+        <img src="pics/choco.jpg" alt="recept1" width="90%" >
         <br>
         <h3>benodigheden</h3>
         <ul>
