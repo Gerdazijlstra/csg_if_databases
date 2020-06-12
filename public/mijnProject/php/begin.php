@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        
         <title>Bakken & co</title>
         <link rel="stylesheet" type="text/css" href="css/design.css">
         <title>recepten</title><link rel="stylesheet" href="design.css" type="text/css">
@@ -24,7 +25,6 @@
                    <a href="vnr/index.php">inloggen</a>
                    <?php
                 }
-                
                 ?>
                 
             </div>
