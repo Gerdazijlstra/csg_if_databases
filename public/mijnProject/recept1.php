@@ -1,5 +1,5 @@
 <?php
-require('php/begin2.php');
+require('php/begin.php');
 ?>
 <div id="boven">
     <h1>zandkoekjes </h1>
