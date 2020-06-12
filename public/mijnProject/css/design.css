@@ -65,6 +65,7 @@ ul {
     background-color: #f0f9f6;
     height: auto;
     margin:0;
+    
 } 
 #midden a{
     color: black; 
@@ -112,6 +113,14 @@ ul {
     width:50% ;
     text-align: center;
 } 
+#lings{
+    width: 40%;
+    height:100%;
+}
+#rechts{
+    width:60%;
+    height:100%;
+}
 #footer {
     height: 100px;
     font-family: "Lucida Console", Courier, monospace;
