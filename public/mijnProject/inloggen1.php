@@ -1,5 +1,4 @@
 <?php
-<<<<<<< HEAD
 require('php/begin.php');
 $servernaam = "localhost";
 $Gebruikersnaam = 'username';
@@ -7,7 +6,6 @@ $Wachtwoord = 'password';
 $database = 'Bakkenenco';
 $DBverbinding = mysqli_connect($servernaam, $Gebruikersnaam, $Wachtwoord, $database);
 $mysqli = new mysqli($localhost, $Gebruikersnaam, $Wachtwoord, $Bakkenenco);
-=======
     require('php/begin.php');
     $naam = $_GET["gebruikersnaam"];
     $woord = $_GET["wachtwoord"];
@@ -29,7 +27,6 @@ $mysqli = new mysqli($localhost, $Gebruikersnaam, $Wachtwoord, $Bakkenenco);
         header("Location: ../mijnProject/index.php");
 }
 else {
->>>>>>> b30e44e006cb96fb28bce4065dc10dd9f16a3608
 ?>
 <form action="inloggen1.php" method="get">
     gebruikersnaam: <input type="text" name="gebruikersnaam">
