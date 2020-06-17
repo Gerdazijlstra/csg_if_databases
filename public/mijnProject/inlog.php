@@ -6,7 +6,7 @@ echo $_SESSION["melding"];
 
 
 
-<h2>Formulier</h2>
+<h2>Inloggen op Bakken & Co</h2>
     <form method="POST" class="form-inline" action="inloggen1.php">
         <input type="text" class="form-control mb-2 mr-sm-2" placeholder="gebruikersnaam" id="naam" name="naam">
         <input type="password" class="form-control mb-2 mr-sm-2" placeholder="wachtwoord" id="woord" name="woord">

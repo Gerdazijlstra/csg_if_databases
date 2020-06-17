@@ -14,7 +14,11 @@ h1 {
     color: black;
     font-family: "Lucida Console", Courier, monospace;
     font-weight: normal;
-    
+}
+h2{
+    color: black;
+    font-family: "Lucida Console", Courier, monospace;
+    font-weight: normal;
 }
 ul {
   list-style-type: circle; 
