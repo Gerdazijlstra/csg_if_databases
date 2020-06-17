@@ -14,7 +14,16 @@ h1 {
     color: black;
     font-family: "Lucida Console", Courier, monospace;
     font-weight: normal;
-    
+}
+h2{
+    color: black;
+    font-family: "Lucida Console", Courier, monospace;
+    font-weight: normal;
+}
+h3{
+    color: black;
+    font-family: "Lucida Console", Courier, monospace;
+    font-weight: normal;  
 }
 ul {
   list-style-type: circle; 
@@ -78,6 +87,8 @@ ul {
     color: black; 
     font-family: "Lucida Console", Courier, monospace;
      text-decoration: none;
+     
+
 }
 #midden a:hover{
     color:black;
@@ -108,8 +119,9 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size:40px;
- font-family: "Lucida Console", Courier, monospace;
+  font-family: "Lucida Console", Courier, monospace;
 }
+
 #a, #b, #c, #d {
     height: 300px;  
     width: 100% ;
