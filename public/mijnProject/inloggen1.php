@@ -17,7 +17,7 @@ if (isset($_POST['naam'])) {
         $_SESSION["user"] = "$naam";
         $_SESSION["melding"] = "U bent ingelogd met {$_SESSION["user"]}.";
         $_SESSION["log"] = 1;
-        header("Location: uitlog.php");
+        header("Location: index.php");
         
     }
     else {
