@@ -11,10 +11,10 @@
             }
         }
         else {
-        echo '<h4> er zijn hier nog geen reacties geplaatst. <h4> ';
+        echo ' er zijn hier nog geen reacties geplaatst.<br><br>';
         }
     }
     else {
-        echo '<h4> u moet inloggen als u de reacties wilt zien.';
+        echo ' u moet inloggen als u de reacties wilt zien.<br><br>';
     }
 ?>
