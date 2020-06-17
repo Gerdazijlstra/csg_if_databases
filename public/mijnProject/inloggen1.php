@@ -16,13 +16,15 @@ if (isset($_POST['naam'])) {
     if (mysqli_num_rows($records) == 1) {
         $_SESSION["user"] = "$naam";
         $_SESSION["melding"] = "U bent ingelogd met {$_SESSION["user"]}.";
+        $_SESSION["log"] = 1;
         header("Location: uitlog.php");
-        $_session["log"] = "ingelogd";
+        
     }
     else {
         $_SESSION["melding"] = "Het is niet gelukt om in te loggen. Probeer het opnieuw.";
+        $_SESSION["log"] = 0;
         header("Location: inlog.php");
-        $_session["log"] = "uigelogd";
+        
         
     }
 }

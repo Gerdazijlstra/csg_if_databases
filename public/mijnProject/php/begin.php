@@ -17,11 +17,13 @@
                 <a href="recepten.php">recepten</a>
                 <?php
                 session_start();
-                if ($_session["log"] = "ingelogd") {
+                $ingelogd = $_SESSION["log"];
+                if ($ingelogd == 1) {
                     ?>
                    <a href="uitlog.php">uitloggen</a>
                    <?php
-                } else {
+                } 
+                else {
                     ?>
                    <a href="inlog.php">inloggen</a>
                    <?php
