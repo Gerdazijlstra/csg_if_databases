@@ -20,6 +20,11 @@ h2{
     font-family: "Lucida Console", Courier, monospace;
     font-weight: normal;
 }
+h3{
+    color: black;
+    font-family: "Lucida Console", Courier, monospace;
+    font-weight: normal;  
+}
 ul {
   list-style-type: circle; 
 }
