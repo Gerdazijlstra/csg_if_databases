@@ -34,9 +34,7 @@ require('php/begin.php');
 <p>4.	Bestrijk de ongesuikerde kant van de rest van de plakjes bladerdeeg met de jam. Leg ze met de jamkant naar boven op de aardbeienvulling. Kneed op een werkblad de rolfondant met de kleurstof tot een marmereffect ontstaat. Rol met de deegroller uit op een met poedersuiker bestoven werkblad tot een plak van 10 x 40 cm. Snijd dat in 10 gelijke rechthoekjes en leg op elke tompouce een plakje. </p>
 </div>
 </div>
-<div id="reactie">
-<h3>reacties</h3>
-</div>
 <?php
+require('php/reacties.php');
 require('php/eind.php');
 ?>
