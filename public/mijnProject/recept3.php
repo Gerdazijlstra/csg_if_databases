@@ -1,5 +1,6 @@
 <?php
 require('php/begin.php');
+require('php/databese.php');
 ?>
 <div id="boven">
     <h1>Aardbeientompoes </h1>
