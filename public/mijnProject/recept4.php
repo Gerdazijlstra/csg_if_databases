@@ -1,6 +1,7 @@
 <?php
 require('php/begin.php');
 require('php/databese.php');
+$nummer = 4;
 ?>
 <div id="boven">
     <h1>Chocoladetaart </h1>

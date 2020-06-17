@@ -1,6 +1,7 @@
 <?php
 require('php/begin.php');
 require('php/databese.php');
+$nummer = 6;
 ?>
 <div id="boven">
     <h1>Nachos </h1>

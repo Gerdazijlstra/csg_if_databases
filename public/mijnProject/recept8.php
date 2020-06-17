@@ -1,6 +1,7 @@
 <?php
 require('php/begin.php');
 require('php/databese.php');
+$nummer = 8;
 ?>
 <div id="boven">
     <h1>Hartige taart met tonijn </h1>
