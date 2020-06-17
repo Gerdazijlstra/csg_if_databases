@@ -1,8 +1,8 @@
 Hoi meneer! 
-Om in te loggen kunt u de gebruikersnaam 'DianneDJ' & het wachtwoord 'ikhebhonger' of gebruikersnaam 'GerdaZ' en wachtwoord 'bla' gebruiken. 
+Om in te loggen kunt u de gebruikersnaam 'DianneDJ' & het wachtwoord 'ikhebhonger' of gebruikersnaam 'GerdaZ' en wachtwoord 'bla' gebruiken (we hebben nog twee andere accounts, die kunt u vinden in de database). 
 
-We vonden dit wel een moeilijk project. Het was in het begin vooral lastig om op te starten. 
-Ook kostte het wat meer tijd dan dat we hadden verwacht in het begin. 
-We hadden misschien iets meer op de website willen hebben dan uiteindelijk is gelukt.
-Voor de rest is het wel prima gegaan.
+We vonden dit wel een moeilijk project. Het was in het begin vooral lastig om op te starten, omdat we nog niet begrepen hoe alles moest.
+Ook kostte het wat meer tijd dan dat we hadden verwacht in het begin. Dit heeft ook te maken met alle deadlines en toetsen van andere vakken.
+We hadden misschien iets meer op de website willen hebben dan uiteindelijk is gelukt. Zo hadden we misschien meer gebruik van mysqli kunnen gebruiken.
+Voor de rest is het wel prima gegaan. We zijn blij met het eindresultaat.
 We hebben goed samengewerkt en als iets niet lukte gingen we samen overleggen.
