@@ -24,9 +24,7 @@ require('php/begin.php');
         <p>3.	Bak de koekjes in het midden van de oven in 15-20 min. lichtbruin en gaar. Neem ze van de bakplaat en laat afkoelen, bij voorkeur op een rooster.</p>
     </div>
 </div>
-<div id="reactie">
-<h3>reacties</h3>
-</div>
 <?php
+require('php/reacties.php');
 require('php/eind.php');
 ?>
