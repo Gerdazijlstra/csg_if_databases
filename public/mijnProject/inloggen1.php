@@ -6,54 +6,21 @@ $database = 'Bakkenenco';
 $DBverbinding = mysqli_connect($servernaam, $Gebruikersnaam, $Wachtwoord, $database);
 $mysqli = new mysqli($localhost, $Gebruikersnaam, $Wachtwoord, $Bakkenenco);
 
-    
-require('php/begin.php');
 session_start();
-
-    $naam = $_GET["gebruikersnaam"];
-    $woord = $_GET["wachtwoord"];
-    $sql = "SELECT * FROM Gebruikers WHERE Gebruikersnaam='".$gebr."' AND Wachtwoord='".$pass."'";
+if (isset($_POST['naam'])) {
+    $naam = $_POST['naam'];
+    $woord = $_POST['woord'];
+    // $hash = hash('sha512',$woord);
+    $sql = "SELECT Gebruikersnaam, Wachtwoord FROM Gebruikers WHERE Gebruikersnaam='".$naam."' AND Wachtwoord='".$woord."'";
     $records = mysqli_query($DBverbinding, $sql);
-    $ingelogd = 0 ;
-    if ($naam == $gebr && $woord == $pass){
-        echo 'u bent ingelogd';
-        $ingelogd = 1;
-    } 
-    else {
-        echo 'uw gebruikersnaam of wachtwoord is niet goed, probeer het nog eens';
-    }
-    if ($ingelogd== '1') {
-        
+    if (mysqli_num_rows($records) == 1) {
+        $_SESSION["user"] = "$naam";
+        $_SESSION["melding"] = "U bent ingelogd met {$_SESSION["user"]}.";
+        header("Location: uitlog.php");
     }
     else {
-        ?>
-        <form action="inloggen1.php" method="post">
-            gebruikersnaam: <input type="text" name="gebruikersnaam">
-            <br>
-            wachtwoord: <input type="password" name="wachtwoord">
-            <br>
-            <input type="submit" value="inloggen    " >
-        </form>
-        <br>
-        <?php
+        $_SESSION["melding"] = "Het is niet gelukt om in te loggen. Probeer het opnieuw.";
+        header("Location: inlog.php");
     }
-
-
-
-
-
-
-?>
-
-<form action="inloggen1.php" method="post">
-    gebruikersnaam: <input type="text" name="gebruikersnaam">
-    <br>
-    wachtwoord: <input type="password" name="wachtwoord">
-    <br>
-    <input type="submit" value="inloggen    " >
-</form>
-<br>
-
-<?php
-    require('php/eind.php');
-?>
+}
+?>    

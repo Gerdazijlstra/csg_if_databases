@@ -18,11 +18,11 @@
                 <?php
                 if ($ingelogd == '1') {
                     ?>
-                   <a href="uitloggen.php">uitloggen</a>
+                   <a href="uitlog.php">uitloggen</a>
                    <?php
                 } else {
                     ?>
-                   <a href="vnr/index.php">inloggen</a>
+                   <a href="inlog.php">inloggen</a>
                    <?php
                 }
                 ?>
