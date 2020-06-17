@@ -1,6 +1,9 @@
 <?php
 require('php/begin.php');
 require('php/databese.php');
+$nummer = 1;
+$recept = "SELECT receptTitel  FROM Recept WHERE receptId='".$nummer."'";
+echo $recept;
 ?>
 <div id="boven">
     <h1>zandkoekjes </h1>
