@@ -16,7 +16,8 @@
                 <a href="index.php">home</a>
                 <a href="recepten.php">recepten</a>
                 <?php
-                if ($ingelogd == '1') {
+                session_start();
+                if ($_session["log"] = "ingelogd") {
                     ?>
                    <a href="uitlog.php">uitloggen</a>
                    <?php

@@ -1,7 +1,6 @@
 
 <?php
 require('php/begin.php');
-require('db.php');
 ?>
                 <h1>Zoete recepten</h1>
                 <hr>
