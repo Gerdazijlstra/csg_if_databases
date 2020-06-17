@@ -6,6 +6,7 @@ $database = 'Bakkenenco';
 $DBverbinding = mysqli_connect($servernaam, $Gebruikersnaam, $Wachtwoord, $database);
 $mysqli = new mysqli($localhost, $Gebruikersnaam, $Wachtwoord, $Bakkenenco);
 
+
 session_start();
 if (isset($_POST['mail'])) {
     $mail = $_POST['mail'];
