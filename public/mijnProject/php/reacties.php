@@ -7,7 +7,7 @@
         $records = mysqli_query($DBverbinding, $sql);
         if(mysqli_num_rows($records)>0){
             while($row = mysqli_fetch_array($records)){
-                echo "op " . $row["reactieDatum"]. " zei " . $row["reactieGebruikerId"].":  <br>" . $row["reactieInfo"]."<br><br>" ;
+                echo "Op " . $row["reactieDatum"]. " zei " . $row["reactieGebruikerId"].":  <br>" . $row["reactieInfo"]."<br><br>" ;
             }
         }
         else {
