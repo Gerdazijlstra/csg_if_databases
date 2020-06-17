@@ -2,8 +2,6 @@
 require('php/begin.php');
 require('php/databese.php');
 $nummer = 1;
-$sql = "SELECT * FROM Recept WHERE  receptId='$nummer' ";
-$records = mysqli_query($DBverbinding, $sql);
 ?>
 <div id="boven">
     <h1>zandkoekjes </h1>
