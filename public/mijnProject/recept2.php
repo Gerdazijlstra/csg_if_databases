@@ -1,6 +1,7 @@
 <?php
 require('php/begin.php');
 require('php/databese.php');
+$nummer = 2;
 ?>
 <div id="boven">
     <h1>Appelcake </h1>
