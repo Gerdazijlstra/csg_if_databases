@@ -3,7 +3,7 @@
     require('php/begin.php');
     echo "<h3>".$_SESSION["melding"]. "</h3>";
 ?>
-<br><br>
+<br>
 <a href="logout.php">klik hier om uit te loggen</a>
 <br><br>
 <?php
