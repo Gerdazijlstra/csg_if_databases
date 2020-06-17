@@ -28,7 +28,12 @@ $nummer = 6;
 <p>2.	Verdeel de chips over een ingevette lage ovenschaal. Schep de crème fraîche erop en verdeel de ringen ui, blokjes tomaat en jalapeñopepers erover. Bestrooi met de geraspte kaas. Zet de nachos 5-10 min. in de oven tot de kaas is gesmolten. Strooi de koriander over de nachos. </p>
 </div>
 </div>
+<div id="reactie">
+<h3>reacties</h3>
 <?php
 require('php/reacties.php');
+?>
+</div>
+<?php
 require('php/eind.php');
 ?>

@@ -29,7 +29,12 @@ $nummer = 2;
 <p>3.	Vet de cakevorm in en bestrooi met de bloem. Doe het deeg in de vorm en duw de stukjes appel in het deeg. Bak de cake ca. 50 min.</p>
 </div>
 </div>
+<div id="reactie">
+<h3>reacties</h3>
 <?php
 require('php/reacties.php');
+?>
+</div>
+<?php
 require('php/eind.php');
 ?>

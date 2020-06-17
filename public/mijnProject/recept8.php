@@ -32,7 +32,12 @@ $nummer = 8;
 <p>4.	Bak de taart ca. 35 min. in het midden van de oven goudbruin en gaar. Neem uit de oven en laat 10 min. staan. Bestrooi met de rest van de bieslook en serveer. </p>
 </div>
 </div>
+<div id="reactie">
+<h3>reacties</h3>
 <?php
 require('php/reacties.php');
+?>
+</div>
+<?php
 require('php/eind.php');
 ?>

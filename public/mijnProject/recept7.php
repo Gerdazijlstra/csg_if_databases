@@ -29,7 +29,12 @@ $nummer = 7;
 <p>3.	Snijd de kapjes van de broodjes. Hol de bolletjes uit en leg ze op een met bakpapier beklede bakplaat. Verdeel het eimengsel over de broodjes en druk aan. Snijd de mozzarella in blokjes, bestrooi er de broodjes mee en bak ca. 15 min. in het midden van de oven.</p>
 </div>
 </div>
+<div id="reactie">
+<h3>reacties</h3>
 <?php
 require('php/reacties.php');
+?>
+</div>
+<?php
 require('php/eind.php');
 ?>

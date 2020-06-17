@@ -28,7 +28,12 @@ $nummer = 5;
 <p>3.	Klop de eieren los met de slagroom, peper en zout. Schenk het mengsel in de quichevorm. Verdeel de brie erover en bak ca. 45 min. in de oven.</p>
 </div>
 </div>
+<div id="reactie">
+<h3>reacties</h3>
 <?php
 require('php/reacties.php');
+?>
+</div>
+<?php
 require('php/eind.php');
 ?>

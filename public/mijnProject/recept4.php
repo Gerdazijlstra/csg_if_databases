@@ -34,7 +34,12 @@ $nummer = 4;
 <p>4.	Neem de taart uit de oven en laat 30 min. afkoelen in de vorm. Verwijder de vorm en laat in ca. 1.5 uur volledig afkoelen. Snijd de taart horizontaal doormidden. Bestrijk de bovenkant en beide helften met het chocolademengsel. Leg de helften weer op elkaar. </p>
 </div>
 </div>
+<div id="reactie">
+<h3>reacties</h3>
 <?php
 require('php/reacties.php');
+?>
+</div>
+<?php
 require('php/eind.php');
 ?>
