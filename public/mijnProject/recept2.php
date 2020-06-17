@@ -22,7 +22,7 @@ require('php/databese.php');
     </div>
     <div id= "rechts">
         <h3> instructies </h3>
-        <<p> 1.	Roer de boter zacht. Zeef het bakmeel. Schil de appels en verwijder het klokhuis. Snijd de appels in 8 stukjes. Splits de eieren en klop de eiwitten stijf. </p>
+        <p> 1.	Roer de boter zacht. Zeef het bakmeel. Schil de appels en verwijder het klokhuis. Snijd de appels in 8 stukjes. Splits de eieren en klop de eiwitten stijf. </p>
 
 <p>2.	Mix in een grote kom de boter, Canderel en melk. Voeg de eidooiers toe en mix goed. Voeg beetje bij beetje het bakmeel toe en mix tot een glad beslag. Spatel de stijfgeklopte eiwitten erdoor.</p>
 <p>3.	Vet de cakevorm in en bestrooi met de bloem. Doe het deeg in de vorm en duw de stukjes appel in het deeg. Bak de cake ca. 50 min.</p>
