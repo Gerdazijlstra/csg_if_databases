@@ -78,6 +78,8 @@ ul {
     color: black; 
     font-family: "Lucida Console", Courier, monospace;
      text-decoration: none;
+     font-size:25px;
+
 }
 #midden a:hover{
     color:black;
